@@ -1,0 +1,268 @@
+
+codecademy
+
+learn javascript
+
+-------------------------------------------------------------------------------------------------------------
+003. Data Types
+-------------------------------------------------------------------------------------------------------------
+
+1.
+On line 1, log the string 'JavaScript' to the console.
+
+----------------------------
+console.log('JavaScript');
+----------------------------
+
+>>>
+JavaScript
+>>>
+
+----------------------------
+
+2.
+On line 2, log the number 33.7 to the console.
+
+----------------------------
+console.log(33.7);
+----------------------------
+
+>>>
+33.7
+>>>
+
+----------------------------
+
+3.
+On line 3, print the boolean true to the console.
+
+----------------------------
+console.log(true);
+----------------------------
+
+>>>
+true
+>>>
+
+----------------------------
+
+4.
+On line 4, print null to the console.
+
+----------------------------
+console.log(null);
+----------------------------
+
+>>>
+null
+>>>
+
+----------------------------
+
+-------------------------------------------------------------------------------------------------------------
+004. Math Operators
+-------------------------------------------------------------------------------------------------------------
+
+----------------------------
+
+1.
+Inside of a console.log(), add 3.5 to your age.
+This is the age you'll be when we start sending people to live on Mars.
+
+----------------------------
+console.log(34 + 3.5);
+----------------------------
+
+>>>
+37.5
+>>>
+
+----------------------------
+
+2.
+On a new line write another console.log(). Inside the new console.log()'s parentheses, take the current year and subtract 1969.
+The answer is how many years it's been since the 1969 moon landing.
+
+----------------------------
+console.log(2017 - 1969);
+----------------------------
+
+>>>
+48
+>>>
+
+----------------------------
+
+3.
+Create another console.log(). Inside the parentheses divide 65 by 240.
+
+----------------------------
+console.log(65 / 240);
+----------------------------
+
+>>>
+0.2708333333333333
+>>>
+
+----------------------------
+
+4.
+Create one last console.log. Inside the parentheses, multiply 0.2708 by 100.
+That's the percent of the sun that is made up of helium. Assuming we could stand on the sun, we'd all sound like chipmunks!
+
+----------------------------
+console.log(0.2708 * 100)
+----------------------------
+
+>>>
+27.08
+>>>
+
+-------------------------------------------------------------------------------------------------------------
+005. Properties
+-------------------------------------------------------------------------------------------------------------
+
+1.
+Use the .length property to log the number of characters in the following string to the console:
+Teaching the world how to code
+
+----------------------------
+console.log('Teaching the world how to code'.length);
+----------------------------
+
+>>>
+30
+>>>
+
+-------------------------------------------------------------------------------------------------------------
+006. Built-in Methods
+-------------------------------------------------------------------------------------------------------------
+
+006.1.
+Use the .toUpperCase() method to log the string Codecademy to the console in all capital letters.
+
+----------------------------
+// Log Codecademy in all uppercase letters
+console.log('Codecademy'.toUpperCase()); 
+----------------------------
+
+>>>
+CODECADEMY
+>>>
+
+006.2.
+Use the JavaScript documentation to find a string method that trims the whitespace at the beginning and end of a string.
+Use the method to remove the whitespace at the beginning and end of the following statement (also in app.js):
+'    Remove whitespace   '
+
+----------------------------
+// Use a string method to log the following statment without whitespace at the beginning and end of it.
+console.log('    Remove whitespace   '.trim()); 
+----------------------------
+
+>>>
+Remove whitespace
+>>>
+
+-------------------------------------------------------------------------------------------------------------
+007. Libraries
+-------------------------------------------------------------------------------------------------------------
+
+007.1.
+Inside of a console.log, create a random number with Math.random, then multiply it by 100.
+
+----------------------------
+console.log(Math.random() * 100);
+----------------------------
+
+>>>
+96.1200301889846
+>>>
+
+007.2.
+Now, utilize Math.floor to make the output a whole number.
+Inside the console.log you wrote in the last step, put Math.random() * 100 inside the parentheses of Math.floor.
+
+----------------------------
+console.log(Math.floor(Math.random() * 100));
+----------------------------
+
+>>>
+43
+>>>
+
+007.3.
+Find a method in the JavaScript math library that returns the smallest integer greater than or equal to a decimal number.
+Use this method with the number 43.8. Log the answer to the console.
+
+----------------------------
+console.log(Math.ceil(43.8));
+----------------------------
+
+>>>
+44
+>>>
+
+007.4.
+Use the JavaScript documentation to find a method in the Number library that checks if a number is an integer.
+Put the number 2017 in the parentheses and use console.log() to print the result.
+
+----------------------------
+console.log(Number.isInteger(2017));
+----------------------------
+
+>>>
+True
+>>>
+
+-------------------------------------------------------------------------------------------------------------
+008. Comments
+-------------------------------------------------------------------------------------------------------------
+
+008.1.
+Let's practice adding some code comments.
+To the right, we've provided you with the beginning of the book Catch-22 by Joseph Heller.
+On line 1, write a single line comment that says Opening line.
+
+----------------------------
+//Opening line
+console.log('It was love at first sight.');
+
+console.log('The first time Yossarian saw the chaplain he fell madly in love with him.');
+console.log('Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.');
+console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice.');
+console.log('If it became jaundice they could treat it.');
+console.log('If it didn\'t become jaundice and went away they could discharge him.');
+console.log('But this just being short of jaundice all the time confused them.');
+----------------------------
+
+>>>
+It was love at first sight.
+The first time Yossarian saw the chaplain he fell madly in love with him.
+Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.
+The doctors were puzzled by the fact that it wasn't quite jaundice.
+If it became jaundice they could treat it.
+If it didn't become jaundice and went away they could discharge him.
+But this just being short of jaundice all the time confused them.
+>>>
+
+008.2.
+Single line comments are great for adding context to your code. Multi-line comments are often best suited to prevent a block of code from running. However, both types of comments can be used for either purpose.
+Comment out lines 4 - 9 with a multi-line comment.
+
+----------------------------
+//Opening line
+console.log('It was love at first sight.');
+/*
+console.log('The first time Yossarian saw the chaplain he fell madly in love with him.');
+console.log('Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.');
+console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice.');
+console.log('If it became jaundice they could treat it.');
+console.log('If it didn\'t become jaundice and went away they could discharge him.');
+console.log('But this just being short of jaundice all the time confused them.');
+*/
+----------------------------
+
+>>>
+It was love at first sight.
+>>>
