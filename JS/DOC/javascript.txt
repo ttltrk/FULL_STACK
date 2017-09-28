@@ -453,13 +453,16 @@ true
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-
+02.002. Create a Variable: const
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.002.01.
+
+Create a constant variable named entree and set it to equal to the string 'Enchiladas'.
 
 ----------------------------
-
+const entree = 'Enchiladas';const price = 12;
 ----------------------------
 
 >>>
@@ -468,18 +471,106 @@ true
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-=============================================================================================================
-
-=============================================================================================================
-
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.002.02.
+
+Now, under the entree variable, create a constant variable named price that saves the number 12.
 
 ----------------------------
-
+const price = 12;
 ----------------------------
 
 >>>
 
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.002.03.
+
+Under the price variable, use console.log() to print the value saved to entree.
+On the following line, use console.log() to print the value saved to price.
+
+----------------------------
+console.log(entree);
+console.log(price);
+----------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.002.04.
+
+
+Copy and paste the following code to the bottom of your program.
+entree = 'Tacos';
+This code throws the following error when you run your code:
+TypeError: Assignment to constant variable.
+We'll discuss what's going on here in the next exercise.
+
+----------------------------
+entree = 'Tacos';
+----------------------------
+
+>>>
+/home/ccuser/workspace/learn-javascript-variables-const/app.js:3
+entree = 'Tacos';
+       ^
+
+TypeError: Assignment to constant variable.
+    at Object.<anonymous> (/home/ccuser/workspace/learn-javascript-variables-const/app.js:3:8)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:427:7)
+    at startup (bootstrap_node.js:151:9)
+    at bootstrap_node.js:542:3
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+003. Create a Variable: let
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.003.01.
+
+Create a let variable called changeMe and set it equal to the Boolean true.
+
+----------------------------
+let changeMe = true;
+----------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.003.02.
+
+Set the changeMe variable to the boolean false.
+Log the value saved to changeMe to the console.
+
+----------------------------
+let changeMe = true;
+changeMe = false;
+
+console.log(changeMe);
+----------------------------
+
+>>>
+false
 >>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
