@@ -82,11 +82,11 @@ You'll see in the next exercise that you can put any data type inside the parent
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+/* 
 Use console.log to log your favorite pizza topping to the console. Write your topping between the quotation marks ('').
+*/
 
-----------------------------
 console.log('tejfolos naker');
-----------------------------
 
 >>>
 tejfolos naker
@@ -94,11 +94,11 @@ tejfolos naker
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+/*
 On the next line log your favorite book or movie to the console.
+*/
 
-----------------------------
 console.log('hagakure');
-----------------------------
 
 >>>
 hagakure
@@ -132,11 +132,11 @@ and a boolean is a ghostly Halloween costume. Or no, that's false! It's either t
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+/*
 On line 1, log the string 'JavaScript' to the console.
+*/
 
-----------------------------
 console.log('JavaScript');
-----------------------------
 
 >>>
 JavaScript
@@ -144,11 +144,11 @@ JavaScript
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+/*
 On line 2, log the number 33.7 to the console.
+*/
 
-----------------------------
 console.log(33.7);
-----------------------------
 
 >>>
 33.7
@@ -156,11 +156,11 @@ console.log(33.7);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-On line 3, print the boolean true to the console.
+/*
+On line 3, log true to the console.
+*/
 
-----------------------------
 console.log(true);
-----------------------------
 
 >>>
 true
@@ -168,11 +168,11 @@ true
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+/*
 On line 4, print null to the console.
+*/
 
-----------------------------
 console.log(null);
-----------------------------
 
 >>>
 null
