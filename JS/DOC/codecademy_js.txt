@@ -8,40 +8,40 @@ Introduction To JavaScript
 
 01. INTRODUCTION TO JAVASCRIPT
 
-01.001. Introduction
-01.002. Console
-01.003. Data Types
-01.004. Math Operators
-01.005. Properties
-01.006. Built-in Methods
-01.007. Libraries
-01.008. Comments
-01.009. Review Types and Operators
+       01.001. Introduction
+       01.002. Console
+       01.003. Data Types
+       01.004. Math Operators
+       01.005. Properties
+       01.006. Built-in Methods
+       01.007. Libraries
+       01.008. Comments
+       01.009. Review Types and Operators
 
 02. VARIABLES
 
-02.001. Variables
-02.002. Create a Variable: const
-02.003. Create a Variable: let
-02.004. Undefined
-02.005. Mathematical Assignment Operator
-02.006. String Interpolation
-02.007. String Interpolation II
-02.008. Revie Variables
+       02.001. Variables
+       02.002. Create a Variable: const
+       02.003. Create a Variable: let
+       02.004. Undefined
+       02.005. Mathematical Assignment Operator
+       02.006. String Interpolation
+       02.007. String Interpolation II
+       02.008. Revie Variables
 
 03. CONTROL FLOW
 
-03.001. Introduction to Control Flow
-03.002. if/else Statements
-03.003. True and Flase Values
-03.004. True and Flase Values II
-03.005. Comparison Operators
-03.006. Comparison Operators II
-03.007. else if Statements
-03.008. Logical Operators
-03.009. switch Statements
-03.010. Ternary Operator
-03.011. Review: Control Flow
+       03.001. Introduction to Control Flow
+       03.002. if/else Statements
+       03.003. True and Flase Values
+       03.004. True and Flase Values II
+       03.005. Comparison Operators
+       03.006. Comparison Operators II
+       03.007. else if Statements
+       03.008. Logical Operators
+       03.009. switch Statements
+       03.010. Ternary Operator
+       03.011. Review: Control Flow
 
 =============================================================================================================
 
