@@ -1019,98 +1019,354 @@ In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a s
 03. CONTROL FLOW
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Learn how to make decisions with JavaScript.
+
 =============================================================================================================
-03.001.
+03.001. Introduction to Control Flow
 =============================================================================================================
+
+In this lesson, we'll explore how we can use the building blocks of JavaScript to write programs that make decisions.
+
+Control flow statements enable JavaScript programs to make decisions by executing code based on a condition. 
+If a given condition is true, we execute one block of code. If the statement is false, we execute another block of code. 
+For instance, if we were making a game in which the user had to choose which door to enter, 
+we'd need a way for the program to know what to do once the user was in the next room.
+
+In this lesson, we'll learn how to make decisions with JavaScript and how it can control the program's flow.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------
+/*
+If you wish, set userName equal to your name.
+Also, you can change the value of knowsJavaScript to true, if you'd like!
+Try to predict what will be logged to the console. Run the code when you're ready!
+*/
 
-----------------------------
+let userName = 'trk';
+let knowsJavaScript = true;
 
->>>
-
->>>
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-03.002.
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------
-
-----------------------------
-
->>>
+if (knowsJavaScript && userName) {
+  console.log('Great, ' + userName + '! Get ready to practice your JavaScript!');
+} else if (knowsJavaScript) {
+  console.log('Great! Get ready to practice your JavaScript!');
+} else if (userName) {
+  console.log('Great, ' + userName + '! Get ready to learn something new!');
+} else {
+  console.log('Great! Get ready to learn something new!');
+}
 
 >>>
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-03.003.
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------
-
-----------------------------
-
->>>
-
+Great, trk! Get ready to practice your JavaScript!
 >>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-03.004.
+03.002. if/else Statements
 =============================================================================================================
+
+The core task of programming is writing lists of instructions for computers, or translating our 
+ideas from human-speak to computer-speak.
+
+Let's learn how we can ask JavaScript to think like us and make decisions the way we do.
+
+We'll start with human-speak. Many decisions we make everyday boil down to this sentence in some form:
+
+"If something is true, let's do option 1, or else, if it is false, let's do option 2."
+
+This sentence looks fairly similar when we write it with JavaScript. See for yourself:
+
+let needsCoffee = true;
+if (needsCoffee === true) {
+    console.log('Finding coffee');
+} else {
+    console.log('Keep on keeping on!');
+}
+
+Lines of code between curly braces are called blocks. if/else statements have two code blocks. 
+If the variable needsCoffee is true, the program will run the first block of code. Otherwise, it will run the other block of code.
+needsCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, 
+our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } 
+(line 4). It will ignore the else { ... } part. In this case, we'd see Finding coffee log to the console.
+If needsCoffee were false, only the console.log() statement in the else block would be executed.
+if/else statements are how programs can process yes/no questions programmatically.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------
+/*
+Create a variable named isSoccerFan and set it equal to a boolean, based on your preference.
+*/
 
-----------------------------
+let isSoccerFan = false;
 
 >>>
 
 >>>
 
+---------------------------------------------------------------------
+
+/*
+Write an if/else statement that uses isSoccerFan as its condition. If it is true, then log, Goal!. 
+If it is false, then log, No goal!.
+*/
+
+let isSoccerFan = false;
+
+if (isSoccerFan === true) {
+    console.log('Goal!');
+} else {
+    console.log('No goal!');
+}
+
+>>>
+No goal!
+>>>
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-03.005.
+03.003. True and False Values
 =============================================================================================================
+
+In the previous exercise, we wrote if/else statements. If a given condition were true, one block of code would run. 
+If that condition were false, a different block of code would run. However, there are data types that are not booleans. 
+Let's explore the concepts of true and false in variables that contain other data types, including strings and numbers.
+
+In JavaScript, all variables and conditions have a truthy or falsy value.
+
+let variableOne = 'I Exist!';
+if (variableOne) {
+// This code will run because variableOne contains a truthy value.
+} else {
+// This code will not run because the first block ran.
+}
+In the first line of the program above, a variable is created and set. The value of this variable is a string 
+rather than a boolean. How does this program determine which code block to run?
+
+The second line of this program checks a condition if (variableOne). In the previous exercise, 
+we checked if a variable was equal to true or false. By only writing the name of the variable as the condition, 
+we are checking the truthiness of the variableOne. In this case, variableOne contains a truthy value.
+
+If we changed if (variableOne) to say if (variableTwo), that condition would evaluate to falsy 
+because we have not created a variable called variableTwo in this program. In other words, 
+variableOne is truthy and variableTwo is falsy.
+
+All variables that have been created and set are truthy (and will evaluate to true if they are the condition 
+of a control flow statement) unless they contain one of the seven values listed below:
+
+false
+0 and -0
+"" and '' (empty strings)
+null
+undefined
+NaN (Not a Number)
+document.all (something you will rarely encounter)
+
+There is an important distinction between a variable's value and its truthiness: variableOne's value is 
+'I exist' because that is the data saved to the variable. variableOne is truthy because it exists and 
+does not contain any of the seven falsy values listed above.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------
+/*
+Change the value of wordCount so that Great! You've started your work! is logged to the console.
+*/
 
-----------------------------
+let wordCount = 0;
+
+if (wordCount == 0) {
+  console.log("Great! You've started your work!");
+} else {
+  console.log('Better get to work!');
+}
+
+>>>
+Great! You've started your work!
+>>>
+
+---------------------------------------------------------------------
+
+/*
+Change the value of favoritePhrase so that This string doesn't seem to be empty is logged to the console.
+*/
+
+let favoritePhrase = 'a';
+
+if (favoritePhrase == 'a') {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
+
+>>>
+This string doesn't seem to be empty.
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+03.004. True and False Values II
+=============================================================================================================
+
+In programming, we often evaluate whether or not an expression is true or truthy. Conveniently, 
+JavaScript provides a shorthand notation for this.
+
+let isRaining = true;
+if (isRaining) {
+   console.log('Carry an umbrella!');
+} else {
+  console.log('Enjoy the sun!');
+}
+
+In the example above, the condition is simply if (isRaining). In JavaScript, this is evaluating whether isRaining is truthy. 
+If you read the code out loud to yourself, it sounds like a simple sentence: "If it's raining, carry an umbrella. 
+Else, enjoy the sun!"
+
+JavaScript provides an operator for swapping the truthiness and falsiness of values - the exclamation point (!). 
+We can use this in conditional statements as shorthand to check if the value of a variable evaluates to false rather than true.
+
+let isPhoneCharged = true; 
+if (!isPhoneCharged) {
+  console.log('Plug in your phone!');
+} else {
+  console.log('No need to charge!');
+}
+
+In the example above, the program checks if isPhoneCharged evaluates to false. Because isPhoneCharged is true, 
+the second block of code will execute.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Use the ! operator to cause This string is definitely empty to log to the console.
+*/
+
+let favoritePhrase = 'a';
+
+if (!favoritePhrase == 'a') {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
+
+>>>
+This string is definitely empty.
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+03.005. Comparison Operators
+=============================================================================================================
+
+In addition to checking whether a variable evaluates to true or false, sometimes we need to compare variables 
+to other values. We can achieve this with comparison operators.
+
+There are two comparisons you might be familiar with:
+
+Less than: <
+Greater than: >
+You may also recognize these:
+
+Less than or equal to: <=
+Greater than or equal to: >=
+These comparisons evaluate to true or false.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Using let, write a variable named hungerLevel and set it equal to 5.
+*/
+
+let hungerLevel = 5;
 
 >>>
 
 >>>
 
+---------------------------------------------------------------------
+
+/*
+Write an if/else statement that checks if hungerLevel is greater than 7. If so, log Time to eat!. Otherwise, log We can eat later!.
+*/
+
+let hungerLevel = 5;
+
+if (hungerLevel > 7) {
+  console.log("Time to eat!");
+} else {
+  console.log('We can eat later!');
+}
+
+>>>
+We can eat later!
+>>>
+
+---------------------------------------------------------------------
+
+/*
+Notice that since hungerLevel is 5, the if statement evaluates to false. Therefore the else's code block runs.
+Now set the hungerLevel variable equal to 10 and run your code again.
+*/
+
+let hungerLevel = 10;
+
+if (hungerLevel > 7) {
+  console.log("Time to eat!");
+} else {
+  console.log('We can eat later!');
+}
+
+>>>
+Time to eat!
+>>>
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-03.006.
+03.006. Comparison Operators II
 =============================================================================================================
+
+There are two more useful comparisons we can make. Often, we might want to check if two things are equal 
+to each other or if they are not.
+
+To check if two things equal each other, we write === (three = signs in a row).
+To check if two things do not equal each other, we write !== (an exclamation with two = signs in a row).
+It can be confusing when to use one = sign and when to use three === signs. Use a single = to assign a value 
+to a variable. Use ===to compare the values of two different variables.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------
+/*
+Create a variable named moonPhase and set it equal to full.
+*/
 
-----------------------------
+let moonPhase = 'full';
 
 >>>
 
+>>>
+
+---------------------------------------------------------------------
+
+/*
+Write an if/else statement that checks if the moon is full. If the moonPhase is full, log Howl! 
+to the console, and if it is anything else, log I swear I am not a werewolf.
+
+Notice the code inside the first block of curly braces { } ran. That's because moonPhase equals full, 
+and therefore the condition evaluates to true.
+*/
+
+let moonPhase = 'full';
+
+if (moonPhase == 'full') {
+  console.log("Howl!");
+} else {
+  console.log('I swear I am not a werewolf.');
+}
+
+>>>
+Howl!
 >>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
