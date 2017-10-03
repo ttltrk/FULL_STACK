@@ -95,11 +95,14 @@ You'll see in the next exercise that you can put any data type inside the parent
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /* 
 Use console.log to log your favorite pizza topping to the console. Write your topping between the quotation marks ('').
 */
 
 console.log('tejfolos naker');
+----------------------------------------------------------------
+
 
 >>>
 tejfolos naker
@@ -107,11 +110,13 @@ tejfolos naker
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On the next line log your favorite book or movie to the console.
 */
 
 console.log('hagakure');
+----------------------------------------------------------------
 
 >>>
 hagakure
@@ -145,11 +150,13 @@ and a boolean is a ghostly Halloween costume. Or no, that's false! It's either t
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On line 1, log the string 'JavaScript' to the console.
 */
 
 console.log('JavaScript');
+----------------------------------------------------------------
 
 >>>
 JavaScript
@@ -157,11 +164,13 @@ JavaScript
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On line 2, log the number 33.7 to the console.
 */
 
 console.log(33.7);
+----------------------------------------------------------------
 
 >>>
 33.7
@@ -169,11 +178,13 @@ console.log(33.7);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On line 3, log true to the console.
 */
 
 console.log(true);
+----------------------------------------------------------------
 
 >>>
 true
@@ -181,11 +192,13 @@ true
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On line 4, print null to the console.
 */
 
 console.log(null);
+----------------------------------------------------------------
 
 >>>
 null
@@ -218,12 +231,14 @@ In the example above, each line uses a different mathematical operator to log a 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Inside of a console.log(), add 3.5 to your age.
 This is the age you'll be when we start sending people to live on Mars.
 */
 
 console.log(34 + 3.5);
+----------------------------------------------------------------
 
 >>>
 37.5
@@ -231,12 +246,14 @@ console.log(34 + 3.5);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 On a new line write another console.log(). Inside the new console.log()'s parentheses, take the current year and subtract 1969.
 The answer is how many years it's been since the 1969 moon landing.
 */
 
 console.log(2017 - 1969);
+----------------------------------------------------------------
 
 >>>
 48
@@ -244,11 +261,13 @@ console.log(2017 - 1969);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create another console.log(). Inside the parentheses divide 65 by 240.
 */
 
 console.log(65 / 240);
+----------------------------------------------------------------
 
 >>>
 0.2708333333333333
@@ -256,12 +275,14 @@ console.log(65 / 240);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create one last console.log. Inside the parentheses, multiply 0.2708 by 100.
 That's the percent of the sun that is made up of helium. Assuming we could stand on the sun, we'd all sound like chipmunks!
 */
 
 console.log(0.2708 * 100)
+----------------------------------------------------------------
 
 >>>
 27.08
@@ -290,12 +311,14 @@ The program prints 5 to the console, because Hello has five characters in it.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the .length property to log the number of characters in the following string to the console:
 Teaching the world how to code
 */
 
 console.log('Teaching the world how to code'.length);
+----------------------------------------------------------------
 
 >>>
 30
@@ -329,12 +352,14 @@ Developers use documentation as a reference tool. It describes JavaScript's keyw
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the .toUpperCase() method to log the string Codecademy to the console in all capital letters.
 Log Codecademy in all uppercase letters
 */
 
 console.log('Codecademy'.toUpperCase()); 
+----------------------------------------------------------------
 
 >>>
 CODECADEMY
@@ -342,6 +367,7 @@ CODECADEMY
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the JavaScript documentation to find a string method that trims the whitespace at the beginning and end of a string.
 Use the method to remove the whitespace at the beginning and end of the following statement (also in app.js):
@@ -350,6 +376,7 @@ Use a string method to log the following statment without whitespace at the begi
 */
 
 console.log('    Remove whitespace   '.trim()); 
+----------------------------------------------------------------
 
 >>>
 Remove whitespace
@@ -391,11 +418,13 @@ Then, Math.floor rounds the number down to the nearest whole number.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Inside of a console.log, create a random number with Math.random, then multiply it by 100.
 */
 
 console.log(Math.random() * 100);
+----------------------------------------------------------------
 
 >>>
 96.1200301889846
@@ -403,12 +432,14 @@ console.log(Math.random() * 100);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Now, utilize Math.floor to make the output a whole number.
 Inside the console.log you wrote in the last step, put Math.random() * 100 inside the parentheses of Math.floor.
 */
 
 console.log(Math.floor(Math.random() * 100));
+----------------------------------------------------------------
 
 >>>
 43
@@ -416,12 +447,14 @@ console.log(Math.floor(Math.random() * 100));
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Find a method in the JavaScript math library that returns the smallest integer greater than or equal to a decimal number.
 Use this method with the number 43.8. Log the answer to the console.
 */
 
 console.log(Math.ceil(43.8));
+----------------------------------------------------------------
 
 >>>
 44
@@ -429,12 +462,14 @@ console.log(Math.ceil(43.8));
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the JavaScript documentation to find a method in the Number library that checks if a number is an integer.
 Put the number 2017 in the parentheses and use console.log() to print the result.
 */
 
 console.log(Number.isInteger(2017));
+----------------------------------------------------------------
 
 >>>
 True
@@ -469,6 +504,7 @@ console.log('And will not be executed);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Let's practice adding some code comments.
 To the right, we've provided you with the beginning of the book Catch-22 by Joseph Heller.
@@ -484,6 +520,7 @@ console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice
 console.log('If it became jaundice they could treat it.');
 console.log('If it didn\'t become jaundice and went away they could discharge him.');
 console.log('But this just being short of jaundice all the time confused them.');
+----------------------------------------------------------------
 
 >>>
 It was love at first sight.
@@ -497,6 +534,7 @@ But this just being short of jaundice all the time confused them.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Single line comments are great for adding context to your code. Multi-line comments are often best suited to prevent a block of code from running. However, both types of comments can be used for either purpose.
 Comment out lines 4 - 9 with a multi-line comment.
@@ -512,7 +550,7 @@ console.log('If it became jaundice they could treat it.');
 console.log('If it didn\'t become jaundice and went away they could discharge him.');
 console.log('But this just being short of jaundice all the time confused them.');
 */
-----------------------------
+----------------------------------------------------------------
 
 >>>
 It was love at first sight.
@@ -563,6 +601,7 @@ In this lesson you will learn about two ways to declare variables: let and const
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Run your code.
 Was anything printed to the console?
@@ -576,6 +615,7 @@ let latitude = 40.7;
 
 // This line of code sets the variable inNorthernHemisphere to true
 let inNorthernHemisphere = true;
+----------------------------------------------------------------
 
 >>>
 
@@ -583,6 +623,7 @@ let inNorthernHemisphere = true;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Add the following lines of code to the bottom of app.js:
 console.log(location);
@@ -604,6 +645,7 @@ let inNorthernHemisphere = true;
 console.log(location);
 console.log(latitude);
 console.log(inNorthernHemisphere);
+----------------------------------------------------------------
 
 >>>
 New York City
@@ -644,11 +686,13 @@ In the example above, on line 1 the myAge variable is set to 11. Below that, con
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a constant variable named entree and set it to equal to the string 'Enchiladas'.
 */
 
 const entree = 'Enchiladas';const price = 12;
+----------------------------------------------------------------
 
 >>>
 
@@ -656,11 +700,13 @@ const entree = 'Enchiladas';const price = 12;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Now, under the entree variable, create a constant variable named price that saves the number 12.
 */
 
 const price = 12;
+----------------------------------------------------------------
 
 >>>
 
@@ -668,6 +714,7 @@ const price = 12;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Under the price variable, use console.log() to print the value saved to entree.
 On the following line, use console.log() to print the value saved to price.
@@ -675,6 +722,7 @@ On the following line, use console.log() to print the value saved to price.
 
 console.log(entree);
 console.log(price);
+----------------------------------------------------------------
 
 >>>
 
@@ -682,6 +730,7 @@ console.log(price);
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Copy and paste the following code to the bottom of your program.
 entree = 'Tacos';
@@ -691,6 +740,7 @@ We'll discuss what's going on here in the next exercise.
 */
 
 entree = 'Tacos';
+----------------------------------------------------------------
 
 >>>
 /home/ccuser/workspace/learn-javascript-variables-const/app.js:3
@@ -739,11 +789,13 @@ does not change in your program.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a let variable called changeMe and set it equal to the Boolean true.
 */
 
 let changeMe = true;
+----------------------------------------------------------------
 
 >>>
 
@@ -751,6 +803,7 @@ let changeMe = true;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Set the changeMe variable to the boolean false.
 Log the value saved to changeMe to the console.
@@ -760,6 +813,7 @@ let changeMe = true;
 changeMe = false;
 
 console.log(changeMe);
+----------------------------------------------------------------
 
 >>>
 false
@@ -784,12 +838,14 @@ JavaScript creates the variable and sets it equal to the value undefined.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable named notDefined, but don't set it equal to anything.
 Log the result to the console.
 */
 
 let notDefined;
+----------------------------------------------------------------
 
 >>>
 
@@ -797,6 +853,7 @@ let notDefined;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create an undefined variable named valueless.
 Log the result to the console.
@@ -805,6 +862,7 @@ Log the result to the console.
 let valueless;
 
 console.log(valueless);
+----------------------------------------------------------------
 
 >>>
 undefined
@@ -857,6 +915,7 @@ These operators are responsible for increasing and decreasing a number variable 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use a mathematical assignment operator to add 16 to the value saved to molecule.
 */
@@ -865,6 +924,7 @@ let molecule = 16;
 
 // Add and assign to molecule below
 molecule += 16;
+----------------------------------------------------------------
 
 >>>
 
@@ -872,6 +932,7 @@ molecule += 16;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use a mathematical assignment operator to assign particle the value of itself multiplied by 6.02.
 */
@@ -880,6 +941,7 @@ let particle = 18;
 
 // Multiply and assign to particle below
 particle *= 6.02;
+----------------------------------------------------------------
 
 >>>
 
@@ -887,6 +949,7 @@ particle *= 6.02;
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the increment operator to increase the value saved to assay by 1.
 */
@@ -895,6 +958,7 @@ let assay = 3;
 
 // Increment assay by 1
 assay++;
+----------------------------------------------------------------
 
 >>>
 
@@ -926,11 +990,13 @@ I own a pet armadillo.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable named favoriteAnimal and set it equal to your favorite animal.
 */
 
 let favoriteAnimal = 'Jojo';
+----------------------------------------------------------------
 
 >>>
 
@@ -938,11 +1004,13 @@ let favoriteAnimal = 'Jojo';
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use console.log to print: 'My favorite animal: Koala', but replace 'Koala' with your favoriteAnimal variable.
 */
 
 console.log('My favorite animal: ' + favoriteAnimal + '.');
+----------------------------------------------------------------
 
 >>>
 My favorite animal: Jojo.
@@ -975,11 +1043,13 @@ I own a pet armadillo.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable called myName and assign it your name.
 */
 
 let myName = 'trk';
+----------------------------------------------------------------
 
 >>>
 
@@ -987,11 +1057,13 @@ let myName = 'trk';
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable called myCity, and assign it your favorite city's name.
 */
 
 let myCity = 'xxx';
+----------------------------------------------------------------
 
 >>>
 
@@ -999,6 +1071,7 @@ let myCity = 'xxx';
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use ${} to interpolate your variables into the sentence below. Use console.log() to print your sentence to the console.
 
@@ -1007,6 +1080,7 @@ Replace NAME and CITY in the values above with the values saved to myName and my
 */
 
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+----------------------------------------------------------------
 
 >>>
 My name is trk. My favorite city is xxx.
@@ -1049,6 +1123,7 @@ In this lesson, we'll learn how to make decisions with JavaScript and how it can
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 If you wish, set userName equal to your name.
 Also, you can change the value of knowsJavaScript to true, if you'd like!
@@ -1067,6 +1142,7 @@ if (knowsJavaScript && userName) {
 } else {
   console.log('Great! Get ready to learn something new!');
 }
+----------------------------------------------------------------
 
 >>>
 Great, trk! Get ready to practice your JavaScript!
@@ -1106,18 +1182,21 @@ if/else statements are how programs can process yes/no questions programmaticall
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable named isSoccerFan and set it equal to a boolean, based on your preference.
 */
 
 let isSoccerFan = false;
+----------------------------------------------------------------
 
 >>>
 
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Write an if/else statement that uses isSoccerFan as its condition. If it is true, then log, Goal!. 
 If it is false, then log, No goal!.
@@ -1130,6 +1209,7 @@ if (isSoccerFan === true) {
 } else {
     console.log('No goal!');
 }
+----------------------------------------------------------------
 
 >>>
 No goal!
@@ -1181,6 +1261,7 @@ does not contain any of the seven falsy values listed above.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Change the value of wordCount so that Great! You've started your work! is logged to the console.
 */
@@ -1192,13 +1273,15 @@ if (wordCount == 0) {
 } else {
   console.log('Better get to work!');
 }
+----------------------------------------------------------------
 
 >>>
 Great! You've started your work!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Change the value of favoritePhrase so that This string doesn't seem to be empty is logged to the console.
 */
@@ -1210,6 +1293,7 @@ if (favoritePhrase == 'a') {
 } else {
   console.log('This string is definitely empty.');
 }
+----------------------------------------------------------------
 
 >>>
 This string doesn't seem to be empty.
@@ -1250,6 +1334,7 @@ the second block of code will execute.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Use the ! operator to cause This string is definitely empty to log to the console.
 */
@@ -1261,6 +1346,7 @@ if (!favoritePhrase == 'a') {
 } else {
   console.log('This string is definitely empty.');
 }
+----------------------------------------------------------------
 
 >>>
 This string is definitely empty.
@@ -1287,18 +1373,21 @@ These comparisons evaluate to true or false.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Using let, write a variable named hungerLevel and set it equal to 5.
 */
 
 let hungerLevel = 5;
+----------------------------------------------------------------
 
 >>>
 
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Write an if/else statement that checks if hungerLevel is greater than 7. If so, log Time to eat!. Otherwise, log We can eat later!.
 */
@@ -1310,13 +1399,15 @@ if (hungerLevel > 7) {
 } else {
   console.log('We can eat later!');
 }
+----------------------------------------------------------------
 
 >>>
 We can eat later!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Notice that since hungerLevel is 5, the if statement evaluates to false. Therefore the else's code block runs.
 Now set the hungerLevel variable equal to 10 and run your code again.
@@ -1329,6 +1420,7 @@ if (hungerLevel > 7) {
 } else {
   console.log('We can eat later!');
 }
+----------------------------------------------------------------
 
 >>>
 Time to eat!
@@ -1350,18 +1442,21 @@ to a variable. Use ===to compare the values of two different variables.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Create a variable named moonPhase and set it equal to full.
 */
 
 let moonPhase = 'full';
+----------------------------------------------------------------
 
 >>>
 
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Write an if/else statement that checks if the moon is full. If the moonPhase is full, log Howl! 
 to the console, and if it is anything else, log I swear I am not a werewolf.
@@ -1377,6 +1472,7 @@ if (moonPhase == 'full') {
 } else {
   console.log('I swear I am not a werewolf.');
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
@@ -1416,6 +1512,8 @@ if the stopLight was blinking blue, the last else would catch it and return a de
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+
+----------------------------------------------------------------
 /*
 We all know that turning into a werewolf is not an instantaneous event. It happens in stages. So let's expand our program to accommodate that.
 If the moon is mostly full, log Arms and legs are getting hairier. If the moon is mostly new, log Back on two feet.
@@ -1433,13 +1531,15 @@ if (moonPhase === 'full') {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Set moonPhase to mostly full and run your code.
 We expect Arms and legs are getting hairier to log to the console.
@@ -1458,13 +1558,15 @@ if (moonPhase === 'full') {
 }Set moonPhase to mostly full and run your code.
 
 We expect Arms and legs are getting hairier to log to the console.
+----------------------------------------------------------------
 
 >>>
 Arms and legs are getting hairier
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Set moonPhase to mostly new and run your code.
 We expect Back on two feet to log to the console.
@@ -1481,13 +1583,15 @@ if (moonPhase === 'full') {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Back on two feet
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Now set moonPhase to solar eclipse and run your code.
 Since there is not an else if condition for solar eclipse, we expect the default else code block to run. You should see Invalid moon phase print to the console.
@@ -1504,6 +1608,7 @@ if (moonPhase === 'full') {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Invalid moon phase
@@ -1540,19 +1645,22 @@ We can combine these operators with all of the ones we have learned throughout t
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Let's say the werewolf can only become its wolf form when there is a full moon and a it's a foggy night.
 We already have a moonPhase variable, so let's start with making a isFoggyNight variable set equal to true.
 */
 
 let isFoggyNight = true;
+----------------------------------------------------------------
 
 >>>
 
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Now, set moonPhase to 'full' again. Now that we have both conditions, let's write that in our if/else statement.
 In the first condition of the if/else statement, check that moonPhase === 'full' and isFoggyNight is true, using &&.
@@ -1571,13 +1679,15 @@ if (moonPhase === 'full' && isFoggyNight === true) {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Now, change the isFoggyNight variable to equal false and run it again.
 */
@@ -1594,13 +1704,15 @@ if (moonPhase === 'full' && isFoggyNight === true) {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Invalid moon phase
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 The default else will print to the console. That's because && requires both moonPhase and isFoggyNight to be true 
 to execute its code block.
@@ -1621,6 +1733,7 @@ if (moonPhase === 'full' || isFoggyNight === true) {
 } else {
   console.log('Invalid moon phase');
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
@@ -1676,6 +1789,7 @@ At the end of each switch statement, there is a default condition. If none of th
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Let's illustrate this by converting our werewolf program to a switch statement. For now, 
 let's also delete the isFoggyNight variable so it doesn't fog up this concept.
@@ -1700,13 +1814,15 @@ switch (moonPhase) {
     console.log('Invalid moon phase');
     break;
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Then, write each else if condition as a case.
 If moonPhase is 'full', then use console.log() to print Howl!.
@@ -1731,13 +1847,15 @@ switch (moonPhase) {
     console.log('Invalid moon phase');
     break;
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Now, add a default at the end of the switch that uses console.log() to print Invalid moon phase, 
 in the case that moonPhase does not equal one of our cases.
@@ -1759,6 +1877,7 @@ switch (moonPhase) {
     console.log('Invalid moon phase');
     break;
 }
+----------------------------------------------------------------
 
 >>>
 Howl!
@@ -1802,6 +1921,7 @@ Otherwise, a message that states the user is not old enough to drive will be log
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 In main.js, refactor the first if/else block to user the ternary operator.
 */
@@ -1825,6 +1945,7 @@ if (favoritePhrase === 'Love That!') {
 } else {
   console.log("I don't love that!");
 }
+----------------------------------------------------------------
 
 >>>
 You will not need a key to open the door.
@@ -1832,8 +1953,9 @@ Correct!
 I love that!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 In main.js, refactor the second if/else block to user the ternary operator.
 */
@@ -1853,6 +1975,7 @@ if (favoritePhrase === 'Love That!') {
 } else {
   console.log("I don't love that!");
 }
+----------------------------------------------------------------
 
 >>>
 You will not need a key to open the door.
@@ -1860,8 +1983,9 @@ Correct!
 I love that!
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 In main.js, refactor the third if/else block to use the ternary operator.
 */
@@ -1878,7 +2002,7 @@ isCorrect ? console.log('Correct!') : console.log('Incorrect!');
 let favoritePhrase = 'Love That!';
 
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
-
+----------------------------------------------------------------
 
 >>>
 You will not need a key to open the door.
@@ -1931,6 +2055,7 @@ See if you can figure out how this code works. In the next exercise, we'll walk 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 let calculatorIsOn = false;
 
 const pressPowerButton = () => {
@@ -1948,6 +2073,7 @@ pressPowerButton();
 
 pressPowerButton();
 // Output: Calculator turning off.
+----------------------------------------------------------------
 
 >>>
 Calculator turning on.
@@ -2000,6 +2126,7 @@ Functions can make code reusable!
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 Imagine you work at a pizza restaurant and you want to write a JavaScript program to take orders so you don't have 
 to write orders by hand. You can write a function to perform this task!
@@ -2011,13 +2138,15 @@ followed by an arrow () =>. Inside of its block {}, use console.log() to print '
 const takeOrder = () => {
   console.log('Order pizza')
 };
+----------------------------------------------------------------
 
 >>>
 
 >>>
 
----------------------------------------------------------------------
+################################################################
 
+----------------------------------------------------------------
 /*
 Under the function, let's take an order.
 
@@ -2029,12 +2158,13 @@ const takeOrder = () => {
 };
 
 takeOrder();
+----------------------------------------------------------------
 
 >>>
 Order pizza
 >>>
 
----------------------------------------------------------------------
+################################################################
 
 /*
 
