@@ -68,11 +68,11 @@ using the var keyword, and can contain all types of variables.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 We can define several types of variables to use in our code:
 */
 
-----------------------------------------------------------------
 var myNumber = 3;                   // a number
 var myString = "Hello, World!"      // a string
 var myBoolean = true;               // a boolean
@@ -89,11 +89,11 @@ A few notes about variable types in JavaScript:
 In JavaScript, the Number type can be both a floating point number and an integer.
 Boolean variables can only be equal to either true or false.
 
+----------------------------------------------------------------
 /*
 There are two more advanced types in JavaScript. An array, and an object. We will get to them in more advanced tutorials.
 */
 
-----------------------------------------------------------------
 var myArray = [];                    // an array
 var myObject = {};                  // an object
 ----------------------------------------------------------------
@@ -107,11 +107,11 @@ var myObject = {};                  // an object
 
 On top of that, there are two special types called undefined and null.
 
+----------------------------------------------------------------
 /*
 When a variable is used without first defining a value for it, it is equal to undefined.
 */
 
-----------------------------------------------------------------
 var newVariable;
 console.log(newVariable); //prints undefined
 ----------------------------------------------------------------
@@ -136,6 +136,7 @@ null
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+----------------------------------------------------------------
 /*
 You must define the following variables:
 
@@ -145,7 +146,6 @@ A boolean called myBoolean which contains the value false;
   Start Exercise
 */
 
-----------------------------------------------------------------
 var myNumber = 4;
 var myString = 'Variables are great.';
 var myBoolean = false;
