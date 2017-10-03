@@ -51,39 +51,374 @@ JavaScript Tutorial
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-01. 
+01. Overview
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.001. 
-=============================================================================================================
-
-
-=============================================================================================================
-01.002. 
-=============================================================================================================
-
-
-=============================================================================================================
-01.003. 
-=============================================================================================================
-
-
-=============================================================================================================
-01.004. 
-=============================================================================================================
-
-
-=============================================================================================================
-01.005. 
-=============================================================================================================
-
-
-=============================================================================================================
-01.006. 
+01.001. Introduction to JavaScript 
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Welcome to JavaScript
+
+JavaScript is one of the most popular programming languages on earth and is used to add interactivity to webpages, 
+process data, as well as create various applications (mobile apps, desktop apps, games, and more)
+Learning the fundamentals of a language will enable you to create the program you desire, whether client-side or server-side.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Select the correct statement:
+
+>>>
+You can use JavaScript to create interactive web elemets.
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.002. Creating Your First JavaScript
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Your First JavaScript
+
+Let's start with adding JavaScript to a webpage.
+JavaScript on the web lives inside the HTML document. 
+In HTML, JavaScript code must be inserted between <script> and </script> tags:
+
+<script>
+   ...
+</script>
+
+JavaScript can be placed in the HTML page's <body> and <head> sections.
+In the example below, we placed it within the <body> tag.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+What tag contains the JavaScript code?
+
+>>>
+script
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Output
+
+Let's use JavaScript to print "Hello World" to the browser.
+
+<html>
+   <head> </head>
+   <body>
+     <script>
+       document.write("Hello World!");
+     </script>
+   </body>
+</html> 
+
+The document.write() function writes a string into our HTML document. 
+This function can be used to write text, HTML, or both. 
+
+The document.write() method should be used only for testing. Other output mechanisms appear in the upcoming lessons.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Please type in a code to output the "Hello world!" text on the screen.
+*/
+
+<script>
+document.write("Hello world!");
+</script>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Formatting Text
+
+Just like in HTML, we can use HTML tags to format text in JavaScript.
+For example, we can output the text as a heading.
+
+<html>
+   <head> </head>
+   <body>
+     <script>
+       document.write("<h1>Hello World!</h1>");
+     </script>
+   </body>
+</html>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Which choice can be added within the text to be displayed?
+
+>>>
+Formatting tags
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.003. Adding JavaScript to a Web Page
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+JavaScript in <head>
+
+You can place any number of scripts in an HTML document.
+Typically, the script tag is placed in the head of the HTML document:
+
+<html>
+   <head>
+     <script>
+     </script>
+   </head>
+   <body>
+   </body>
+</html> 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Where is the "script" tag typically placed?
+
+>>>
+Inside the HEAD tag
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+JavaScript in <body>
+
+Alternatively, include the JavaScript in the <body> tag.
+
+<html>
+   <head> </head>
+   <body>
+     <script>
+     </script>
+   </body>
+</html>
+
+It's a good idea to place scripts at the bottom of the <body> element.
+This can improve page load, because HTML display is not blocked by scripts loading.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Where else is the "script" tag typically placed?
+
+>>>
+Inside the BODY tag
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+The <script> Tag
+
+The <script> tag can take two attributes, language and type, which specify the script's type:
+<script language="javascript" type="text/javascript">
+
+</script>
+
+The language attribute is deprecated, and should not be used.
+
+In the example below, we created an alert box inside the script tag, using the alert() function.
+
+<html>
+   <head>
+     <title></title>
+     <script type="text/javascript">
+       alert("This is an alert box!");
+     </script>
+   </head>
+   <body>
+   </body>
+</html>
+
+The type attribute: <script type="text/javascript"> is also no longer required, as JavaScript is the default 
+HTML scripting language.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+What attribute and what value is used along with the script tag?
+*/
+
+<script type="text/javascript">
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.004. External JavaScript
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+External JavaScript
+
+Scripts can also be placed in external files.
+External scripts are useful and practical when the same code is used in a number of different web pages.
+JavaScript files have the file extension .js.
+
+Below, we've created a new text file, and called it demo.js.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+What extension is used for the JavaScript file?
+
+>>>
+.js
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+External JavaScript
+
+To use an external script, put the name of the script file in the src (source) attribute of the <script> tag.
+
+Here is an example:
+
+<html>
+   <head>
+     <title> </title>
+     <script src="demo.js"></script>
+   </head>
+   <body>
+   </body>
+</html>
+
+Your demo.js file includes the following JavaScript:
+alert("This is an alert box!");
+
+External scripts cannot contain <script> tags.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+What attribute of the script tag is used for adding the external JavaScript file?
+
+>>>
+src
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+External JavaScript
+
+The result of the previous example will be identical to the result when we included the JavaScript within the HTML file.
+
+You can place an external script reference in <head> or <body>, whichever you prefer.
+The script will behave as if it were located exactly where the <script> tag is located.
+Placing a JavaScript in an external file has the following advantages: 
+
+- It separates HTML and code.
+- It makes HTML and JavaScript easier to read and maintain.
+- Cached JavaScript files can speed up page loads.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Please add the corresponding keywords to add the external sample.js file to the web page.
+*/
+
+<script type="text/javascript" src ="sample.js"></script>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.005. Comments in JavaScript
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+JavaScript Comments
+
+Not all JavaScript statements are "executed".
+Code after a double slash //, or between /* and */, is treated as a comment.
+Comments are ignored, and are not executed.
+
+Single line comments use double slashes.
+
+<script>
+   // This is a single line comment
+   alert("This is an alert box!");
+</script>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+How does the single line comment look like?
+
+>>>
+//this is a comment
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Multiple-Line Comments
+
+Everything you write between /*and */ will be considered as a multi-line comment.
+
+Here is an example.
+
+<script>
+   /* This code 
+   creates an 
+   alert box */
+   alert("This is an alert box!");
+</script>
+
+Comments are used to describe and explain what the code is doing.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Create a multi-line comment in JavaScript.
+*/
+
+  
+/* this is a
+multiline
+comment */
+ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.006. Module 1 Quiz
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+What are the three core languages in web pages?
+
+>>>
+HTML, CSS, JavaScript
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+Please fill in the missing commands to add the file "code.js" to your web page.
+*/
+
+<script type="text/javascript" src="code.js"></script>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Why is the Javascript code being placed just before the closing body tag?
+
+>>>
+To let the web page fully load in the browser window
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+
+
