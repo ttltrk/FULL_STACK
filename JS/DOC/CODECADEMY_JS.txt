@@ -2153,7 +2153,7 @@ Under the function, let's take an order.
 Call the takeOrder() function on the last line.
 */
 
-const takeOrder = () => {
+const takeOrder = (topping) => {
   console.log('Order pizza')
 };
 
@@ -2167,11 +2167,22 @@ Order pizza
 ################################################################
 
 /*
+Now, let's include the topping parameter in the body of the takeOrder function.
+Modify the console.log to interpolate the topping parameter to print a string like this:
 
+Order: pizza topped with mushrooms
+
+At the end of the program, modify the takeOrder() function call to include an argument for topping.
 */
 
->>>
+const takeOrder = (topping) => {
+  console.log('Order: pizza topped with ' + topping);
+};
 
+takeOrder('mushrooms');
+
+>>>
+Order: pizza topped with mushrooms
 >>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
