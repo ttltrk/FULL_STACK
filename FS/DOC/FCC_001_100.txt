@@ -126,315 +126,24 @@ FCC_001_100
 
 001.
 
-----------------------------------------------------------------
-/*
-
-*/
-
-
-----------------------------------------------------------------
-
->>>
-
->>>
-
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-freecodecamp.com
-
-HTML/CSS/BOOTSTRAP/JS
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-#HTML
-
-001 - Say Hello to HTML Elements
-002 - Headline with the h2 Element
-003 - Inform with the Paragraph Element 
-004 - Uncomment HTML 
-005 - Comment out HTML
-006 - Fill in the Blank with Placeholder Text
-007 - Delete HTML Elements
-008 - Change the Color of Text
-009 - Use CSS Selectors to Style Elements
-010 - Use a CSS Class to Style an Element
-011 - Style Multiple Elements with a CSS Class
-012 - Change the Font Size of an Element
-013 - Set the Font Family of an Element 
-014 - Import a Google Font
-015 - Specify How Fonts Should Degrade
-016 - Add Images to your Website
-017 - Size your Images
-018 - Add Borders Around your Elements
-019 - Add Rounded Corners with a Border Radius
-020 - Make Circular Images with a Border Radius
-021 - Link to External Pages with Anchor Elements
-022 - Nest an Anchor Element within a Paragraph
-023 - Make Dead Links using the Hash Symbol
-024 - Turn an Image into a Link
-025 - Create a Bulleted Unordered List
-026 - Create an Ordered List
-027 - Create a Text Field
-028 - Add Placeholder Text to a Text Field 
-029 - Create a Form Element
-030 - Add a Submit Button to a Form
-031 - Use HTML5 to Require a Field
-032 - Create a Set of Radio Buttons
-033 - Create a Set of Checkboxes
-034 - Check Radio Buttons and Checkboxes by Default
-035 - Nest Many Elements within a Single Div Element
-036 - Give a Background Color to a Div Element
-037 - Set the ID of an Element
-038 - Use an ID Attribute to Style an Element
-
-#CSS
-
-039 - Adjusting the Padding of an Element
-040 - Adjust the Margin of an Element
-041 - Add a Negative Margin to an Element
-042 - Add Different Padding to Each Side of an Element
-043 - Add Different Margins to Each Side of an Element 
-044 - Use Clockwise Notation to Specify the Padding of an Element
-045 - Use Clockwise Notation to Specify the Margin of an Element
-046 - Style the HTML Body Element
-047 - Inherit Styles from the Body Element
-048 - Prioritize One Style Over Another 
-049 - Override Styles in Subsequent CSS
-050 - Override Class Declarations by Styling ID Attributes
-051 - Override Class Declarations with Inline Styles
-052 - Override All Other Styles by using Important
-053 - Use Hex Code for Specific Colors
-054 - Use Hex Code to Mix Colors
-055 - Use Abbreviated Hex Code
-056 - Use RGB values to Color Elements
-057 - Use RGB to Mix Colors
-
-#BOOTSTRAP
-
-058 - Use Responsive Design with Bootstrap Fluid Containers
-059 - Make Images Mobile Responsive 
-060 - Center Text with Bootstrap
-061 - Create a Bootstrap Button
-062 - Create a Block Element Bootstrap Button
-063 - Taste the Bootstrap Button Color Rainbow
-064 - Call out Optional Actions with Button Info
-065 - Warn your Users of a Dangerous Action
-066 - Use the Bootstrap Grid to Put Elements Side By Side
-067 - Ditch Custom CSS for Bootstrap
-068 - Use Spans for Inline Elements
-069 - Create a Custom Heading
-070 - Add Font Awesome Icons to our Buttons
-071 - Add Font Awesome Icons to all of our Buttons
-072 - Responsively Style Radio Buttons
-073 - Responsively Style Checkboxes
-074 - Style Text Inputs as Form Controls
-075 - Line up Form Elements Responsively with Bootstrap
-
-#JQUERY
-
-076 - Create a Bootstrap Headline
-077 - House our page within a Bootstrap Container Fluid Div
-078 - Create a Bootstrap Row
-079 - Split your Bootstrap Row 
-080 - Create Bootstrap Wells 
-081 - Add Elements within your Bootstrap Wells
-082 - Apply the Default Bootstrap Button Style
-083 - Create a Class to Target with jQuery Selectors
-084 - Add ID Attributes to Bootstrap Elements
-085 - Label Bootstrap Wells
-086 - Give Each Element a Unique ID
-087 - Label Bootstrap Buttons
-088 - Use Comments to Clarify Code
-089 - Learn how Script Tags and Document Ready Work
-090 - Target HTML Elements with Selectors Using jQuery
-091 - Target Elements by Class Using jQuery
-092 - Target Elements by ID Using jQuery
-093 - Delete your jQuery Functions
-094 - Target the same element with multiple jQuery Selectors
-095 - Remove Classes from an element with jQuery
-096 - Change the CSS of an Element Using jQuery
-097 - Disable an Element Using jQuery
-098 - Change Text Inside an Element Using jQuery
-099 - Remove an Element Using jQuery
-100 - Use appendTo to Move Elements with jQuery
-101 - Clone an Element Using jQuery
-102 - Target the Parent of an Element Using jQuery
-103 - Target the Children of an Element Using jQuery
-104 - Target a Specific Child of an Element Using jQuery 
-105 - Target Even Numbered Elements Using jQuery
-106 - Use jQuery to Modify the Entire Page
-
-#JAVASCRIPT
-
-107 - Comment your JavaScript Code
-108 - Declare JavaScript Variables
-109 - Storing Values with the Assignment Operator
-110 - Initializing Variables with the Assignment Operator
-111 - Understanding Uninitialized Variables
-112 - Understanding Case Sensitivity in Variables
-113 - Add Two Numbers with JavaScript
-114 - Subtract One Number from Another with JavaScript 
-115 - Multiply Two Numbers with JavaScript
-116 - Divide One Number by Another with JavaScript
-117 - Increment a Number with JavaScript
-118 - Decrement a Number with JavaScript
-119 - Create Decimal Numbers with JavaScript
-120 - Multiply Two Decimals with JavaScript
-121 - Divide one Decimal by Another with JavaScript
-122 - Finding a Remainder in JavaScript
-123 - Compound Assignment With Augmented Addition
-124 - Compound Assignment With Augmented Subtraction
-125 - Compound Assignment With Augmented Multiplication
-126 - Compound Assignment With Augmented Division
-127 - Convert Celsius to Fahrenheit
-128 - Declare String Variables
-129 - Escaping Literal Quotes in Strings
-130 - Quoting Strings with Single Quotes
-131 - Escape Sequences in Strings 
-132 - Concatenating Strings with Plus Operator
-133 - Concatenating Strings with the Plus Equals Operator
-134 - Constructing Strings with Variables
-135 - Appending Variables to Strings
-136 - Find the Length of a String
-137 - Use Bracket Notation to Find the First Character in a String
-138 - Understand String Immutability
-139 - Use Bracket Notation to Find the Nth Character in a String
-140 - Use Bracket Notation to Find the Last Character in a String
-141 - Use Bracket Notation to Find the NthtoLast Character in a String
-142 - Word Blanks
-143 - Store Multiple Values in one Variable using JavaScript Arrays
-144 - Nest one Array within Another Array 
-145 - Access Array Data with Indexes
-146 - Modify Array Data With Indexes
-147 - Access MultiDimensional Arrays With Indexes
-148 - Manipulate Arrays With push
-149 - Manipulate Arrays With pop
-150 - Manipulate Arrays With shift
-151 - Manipulate Arrays With unshift
-152 - Shopping List
-153 - Write Reusable JavaScript with Functions
-154 - Passing Values to Functions with Arguments
-155 - Global Scope and Functions
-156 - Local Scope and Functions
-157 - Global vs Local Scope in Functions
-158 - Return a Value from a Function with Return
-159 - Assignment with a Returned Value
-160 - Stand in Line
-161 - Understanding Boolean Values
-162 - Use Conditional Logic with If Statements
-163 - Comparison with the Equality Operator
-164 - Comparison with the Strict Equality Operator
-165 - Operator
-166 - Comparison with the Strict Inequality Operator
-167 - Comparison with the Greater Than Operator
-168 - Comparison with the Greater Than Or Equal To Operator
-169 - Comparison with the Less Than Operator
-170 - Comparison with the Less Than Or Equal To Operator
-171 - Comparisons with the Logical And Operator
-172 - Comparisons with the Logical Or Operator
-173 - Introducing Else Statements
-174 - Introducing Else If Statements
-175 - Logical Order in If Else Statements
-176 - Chaining If Else Statements
-177 - Golf Code
-178 - Selecting from many options with Switch Statements
-179 - Adding a default option in Switch statements
-180 - Multiple Identical Options in Switch Statements
-181 - Replacing If Else Chains with Switch
-182 - Returning Boolean Values from Functions
-183 - Return Early Pattern for Functions
-184 - Counting Cards
-185 - Build JavaScript Objects
-186 - Accessing Objects Properties with the Dot Operator
-187 - Accessing Objects Properties with Bracket Notation
-188 - Accessing Objects Properties with Variables
-189 - Updating Object Properties
-190 - Add New Properties to a JavaScript Object
-191 - Delete Properties from a JavaScript Object
-192 - Using Objects for Lookups
-193 - Testing Objects for Properties
-194 - Manipulating Complex Objects
-195 - Accessing Nested Objects
-196 - Iterate with JavaScript For Loops
-197 - Iterate Odd Numbers With a For Loop
-198 - Count Backwards With a For Loop
-199 - Iterate Through an Array with a For Loop
-200 - Nesting For Loops
-201 - Iterate with JavaScript While Loops
-202 - Profile Lookup
-203 - Generate Random Fractions with JavaScript
-204 - Generate Random Whole Numbers within a Range
-205 - Sift through Text with Regular Expressions
-206 - Find Whitespace with Regular Expressions
-207 - Invert Regular Expression Matches with JavaScript
-208 - Declare JavaScript Objects as Variables
-209 - Construct JavaScript Objects with Functions
-210 - Make Instances of Objects with a Constructor Function
-211 - Make Unique Objects by Passing Parameters to our Constructor 
-212 - Make Object Properties Private
-213 - Iterate over Arrays with map
-214 - Condense arrays with reduce
-215 - Filter Arrays with filter
-216 - Sort Arrays with sort
-217 - Reverse Arrays with reverse
-218 - Concatenate Arrays with concat
-219 - Split Strings with split
-220 - Join Strings with join
-221 - Reverse a String
-222 - Factorialize a Number
-223 - Check for Palindromes
-224 -
-225 -
-226 -
-227 -
-228 -
-229 -
-230 -
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-001 - Say Hello to HTML Elements
-
-----------------------------------------
-
 Welcome to Free Code Camp's first coding challenge.
 You can edit code in your text editor, which we've embedded into this web page.
 Do you see the code in your text editor that says <h1>Hello</h1>? That's an HTML element.
 Most HTML elements have an opening tag and a closing tag.
+
 Opening tags look like this:
 <h1>
 Closing tags look like this:
 </h1>
-Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
-Each challenge has tests that you can run at any time by clicking the "Run tests" button. Once you get all tests passing, you can advance to the next challenge.
-To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
 
-----------------------------------------
+Note that the only difference between opening tags and closing tags is that closing tags 
+have a slash after their opening angle bracket.
 
-<h1>Hello world</h1>
-
-----------------------------------------
+----------------------------------------------------------------
+/*
+Each challenge has tests that you can run at any time by clicking the "Run tests" button. 
+Once you get all tests passing, you can advance to the next challenge.
+*/
 
 <!DOCTYPE html>
 <html>
@@ -452,12 +161,55 @@ To pass the test on this challenge, change your h1 element's text to say "Hello 
 
 </body>
 </html>
+----------------------------------------------------------------
 
-----------------------------------------------------------------------
+>>>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+>>>
 
-----------------------------------------------------------------------
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+002.
+
+----------------------------------------------------------------
+/*
+
+*/
+
+
+----------------------------------------------------------------
+
+>>>
+
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+003.
+
+----------------------------------------------------------------
+/*
+
+*/
+
+
+----------------------------------------------------------------
+
+>>>
+
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 002 - Headline with the h2 Element
 
