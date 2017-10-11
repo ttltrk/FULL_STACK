@@ -16,6 +16,26 @@ HTML Fundamentals
 
 02. HTML Basics
 
+  02.001. Paragraphs
+  02.002. Text Formatting
+  02.003. Heading, Lines, Comments
+  02.004. Blog Project: About Me
+  02.005. Elements
+  02.006. Attributes
+  02.007. Images
+  02.008. Links
+  02.009. Lists
+  02.010. Blog Project: My Skills
+  02.011. Tables
+  02.012. Blog Project: My Schedule
+  02.013. Inline and Block Elements
+  02.014. Forms
+  02.015. Blog Project: Contact Form
+  02.016. HTML Colors
+  02.017. Frames
+  02.018. Blog Project: Putting It All Together
+  02.019. Module 2 Quiz
+
 03. Challenges
 
 04. HTML5
