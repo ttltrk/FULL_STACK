@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<br> 
+
+	<div class="container">
+
+		<!--NAVBAR CONFIG-->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">imableto</a>
+					</div>
+						<ul class="nav navbar-nav">
+							<li><a href="#">List</a></li>
+							<li><a href="#">Timetable</a></li>
+							<li><a href="#">Mentors/Followers</a></li>
+							<li><a href="#">Dashboard</a></li>
+						</ul>
+	
+						<ul class="nav navbar-nav navbar-right">
+		
+							<li>
+								<a href="#"><span></span> 
+	  
+									<!-- Trigger the modal with a button -->
+									<button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+
+									<!-- Modal -->
+									<div id="myModal" class="modal fade" role="dialog">
+										<div class="modal-dialog">
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+								
+													<!--PHP FORM FOR MODAL (ADD)-->
+													<form action="welcome.php" method="post">
+														Subject:<input type="text" name="name"><br><br>
+														Name: <input type="text" name="name"><br><br>
+														E-mail: <input type="text" name="email"><br><br>
+														<input type="add">
+													</form>					
+						
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li>	  
+						</ul>	
+		</div>
+	</nav>
+  
+	<div class="panel-group">
+		<div class="panel panel-warning">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" href="#collapse1">daily</a>
+				</h4>
+			</div>
+			<div id="collapse1" class="panel-collapse collapse">
+				<div class="panel-body">wu 4:20</div>
+				<div class="panel-body">IF</div>
+				<div class="panel-body">wo</div>
+				<div class="panel-body">code</div>
+				<div class="panel-body">M</div>
+			</div>
+		</div>
+	</div>
+  
+	<div class="panel-group">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" href="#collapse2">weekly</a>
+				</h4>
+			</div>
+		<div id="collapse2" class="panel-collapse collapse">
+			<div class="panel-body">
+		
+				<div class="container">
+	
+					<div class="row">
+						<div class="span12">
+							<table class="table-condensed table-bordered table-striped">
+								<thead>
+									<tr>
+										<th colspan="7">
+											<span class="btn-group">
+												<a class="btn"><i class="icon-chevron-left"></i></a>
+												<a class="btn active">February 2012</a>
+												<a class="btn"><i class="icon-chevron-right"></i></a>
+											</span>
+										</th>
+									</tr>
+									<tr>
+										<th>Su</th>
+										<th>Mo</th>
+										<th>Tu</th>
+										<th>We</th>
+										<th>Th</th>
+										<th>Fr</th>
+										<th>Sa</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="muted">29</td>
+										<td class="muted">30</td>
+										<td class="muted">31</td>
+										<td>1</td>
+										<td>2</td>
+										<td>3</td>
+										<td>4</td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td>6</td>
+										<td>7</td>
+										<td>8</td>
+										<td>9</td>
+										<td>10</td>
+										<td>11</td>
+									</tr>
+									<tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td class="btn-primary"><strong>20</strong></td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td class="muted">1</td>
+                        <td class="muted">2</td>
+                        <td class="muted">3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</div>
+</div>
+		
+		</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-group">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">monthly</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">1 Book</div>
+		<div class="panel-body">1 level (531)</div>
+		<div class="panel-body">buying etf's (10%)</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">quartal</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="panel-group">
+	<div class="panel panel-warning">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" href="#collapse5">1year</a>
+			</h4>
+		</div>
+		<div id="collapse5" class="panel-collapse collapse">
+		
+			<br>
+		
+			<div class="container">
+	  
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse51">Python dev job</a>
+						</h4>
+					</div>
+					<div id="collapse51" class="panel-collapse collapse">
+	  
+						<div class="panel-body">steps</div>
+	  
+					</div>
+				</div>
+			</div>
+			</div>
+			
+	       
+		</div>
+	</div>
+  </div>
+  
+  
+  
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse6">5year</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse7">lifelong</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<footer class="container-fluid text-center">
+  <p>all rights reserved - 2017 - ttltrk.sk</p>
+</footer>
+  
+
+</body>
+</html>
