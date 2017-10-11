@@ -62,8 +62,17 @@ also known as “hyperlinks.” In fact, you probably clicked on many, many hype
 Let's get started!
 
 ----------------------------------------------------------------
+/*
+In the code editor to the right, type your name in between <h1> and </h1>, then press Run.
+*/
+
+<h1>trk</h1>
 
 ----------------------------------------------------------------
+
+>>>
+trk
+>>>
 
 ################################################################
 
