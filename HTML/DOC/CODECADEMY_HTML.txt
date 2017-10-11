@@ -10,20 +10,20 @@ Learn HTML
 
   01.001. Introduction to HTML
   
-    01.001.0001.
-    01.001.0002.
-    01.001.0003.
-    01.001.0004.
-    01.001.0005.
-    01.001.0006.
-    01.001.0007.
-    01.001.0008.
-    01.001.0009.
-    01.001.0010.
-    01.001.0011.
-    01.001.0012.
-    01.001.0013.
-    01.001.0014.
+    01.001.0001. What is HTML?
+    01.001.0002. !DOCTYPE
+    01.001.0003. Preparing for HTML
+    01.001.0004. HTML Anatomy
+    01.001.0005. The Head
+    01.001.0006. Page Titles
+    01.001.0007. Where Does the Title Appear?
+    01.001.0008. The Body
+    01.001.0009. Self-closing Tag
+    01.001.0010. HTML Structure
+    01.001.0011. Whitespace
+    01.001.0012. Indentation
+    01.001.0013. Comments
+    01.001.0014. Review
   
   01.002. Common Elements
 
@@ -43,9 +43,23 @@ Learn HTML
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.0001.
+01.001.0001. What is HTML?
 
 ################################################################
+
+HTML is the language used to create the websites you visit everyday. It provides a logical way to structure content for websites.
+
+Let's analyze the acronym "HTML," as it contains a lot of useful information. HTML stands for HyperText Markup Language.
+
+A markup language is a computer language that defines the structure and presentation of raw text. 
+Markup languages work by surrounding raw text with information the computer can interpret, "marking it up" to be processed.
+In HTML, the computer can interpret raw text that is wrapped in HTML elements. 
+These elements are often nested inside one another, with each containing information about the type and structure 
+of the information to be displayed in the browser.
+HyperText is text displayed on a computer or device that provides access to other text through links, 
+also known as “hyperlinks.” In fact, you probably clicked on many, many hyperlinks on your path to this Codecademy course!
+
+Let's get started!
 
 ----------------------------------------------------------------
 
