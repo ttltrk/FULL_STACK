@@ -490,24 +490,141 @@ Fill in the correct tags:
 ################################################################
 
 =============================================================================================================
-02.003.
+02.003. Heading, Lines, Comments
 =============================================================================================================
 
 ################################################################
 
-################################################################
+HTML Headings
+
+HTML includes six levels of headings, which are ranked according to importance. 
+These are <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>.
+
+The following code defines all of the headings:
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body>
+      <h1>This is heading 1</h1>
+      <h2>This is heading 2</h2>
+      <h3>This is heading 3</h3>
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+   </body>
+</html>
+
+It is not recommended that you use headings just to make the text big or bold, because search engines use headings to index 
+the web page structure and content.
 
 ################################################################
+
+What tags are used to indicate headings?
+
+>>>
+h1-h6
+>>>
+
+################################################################
+
+Horizontal Lines
+
+To create a horizontal line, use the <hr /> tag.
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body>
+      <h1>This is heading 1</h1>
+      <h2>This is heading 2</h2>
+      <h3>This is heading 3</h3>
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+      <p>This is a paragraph </p>
+      <hr />
+      <p>This is a paragraph </p>
+   </body>
+</html>
+
+################################################################
+
+How do you create a horizontal line in HTML?
+
+<hr />
+
+################################################################
+
+Comments
+
+The browser does not display comments, but they help document the HTML and add descriptions, reminders, and other notes.
+<!-- Your comment goes here -->
+
+Example:
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body>
+      <p>This is a paragraph </p>
+      <hr />
+      <p>This is a paragraph </p>
+      <!-- This is a comment -->
+   </body>
+</html>
+
+As you can see, the comment is not displayed in the browser.
+
+There is an exclamation point (!) in the opening tag, but not in the closing tag.
+
+################################################################
+
+Make the text an HTML comment:
+
+<!-- This is a comment -->
 
 ################################################################
 
 =============================================================================================================
-02.004.
+02.004. Blog Project: About Me
 =============================================================================================================
 
 ################################################################
 
+Formatting Text
+
+Let's get back to our blog project.
+The About Me section will contain a heading that's wrapped in a <h1> tag, 
+along with two paragraphs that format text using the tags you've just learned.
+
+Let's take a look at the code:
+
+<h1><span>About Me</span></h1>
+<p>
+Hey! I'm <strong>Alex</strong>. Coding has changed my world  ...
+</p>
+<p class="quote">"Declare variables, not war"</p>
+
+You may have noticed that we've also used some CSS to add colors and styles to the page.
+When you complete HTML, we strongly recommend our free CSS Tutorial!
+
+TASK:
+
+1. Create your own About Me section by changing the text.
+2. Play around with the code; experiment with formatting text.
+
 ################################################################
+
+Fill in the blanks to form a valid HTML:
+
+<p>
+Some quote <br />
+<i> - by some author</i>
+</p>
 
 ################################################################
 
