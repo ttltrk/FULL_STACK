@@ -413,14 +413,59 @@ Fill in the blanks:
 ################################################################
 
 =============================================================================================================
-02.002.
+02.002. Text Formatting
 =============================================================================================================
 
 ################################################################
 
-################################################################
+Formatting Elements
+
+In HTML, there is a list of elements that specify text style.
+
+Formatting elements were designed to display special types of text:
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body>
+      <p>This is regular text </p>
+      <p><b> bold text </b></p>
+      <p><big> big text </big></p>
+      <p><i> italic text </i></p>
+      <p><small> small text </small></p>
+      <p><strong> strong text </strong></p>
+      <p><sub> subscripted text </sub></p>
+      <p><sup> superscripted text </sup></p>
+      <p><ins> inserted text </ins></p>
+      <p><del> deleted text </del></p>
+   </body>
+</html>
 
 ################################################################
+
+Which two tags below make the text visually bold?
+
+>>>
+b and strong
+>>>
+
+################################################################
+
+Formatting Elements
+
+Each paragraph in the example is formatted differently to demonstrate what each tag does:
+
+Browsers display <strong> as <b>, and <em> as <i>.
+However, the meanings of these tags differ: <b> and <i> define bold and italic text, respectively, 
+while <strong> and <em> indicate that the text is "important".
+
+################################################################
+
+Fill in the correct tags:
+
+<strong>important text</strong>
+<sub>subscripted text</sub>
 
 ################################################################
 
