@@ -27,14 +27,59 @@ HTML Fundamentals
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.001.
+01.001. What is HTML?
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ################################################################
 
+Welcome to HTML!
+
+HTML stands for HyperText Markup Language. 
+
+Unlike a scripting or programming language that uses scripts to perform functions, 
+a markup language uses tags to identify content. 
+
+Here is an example of an HTML tag:
+<p> I'm a paragraph </p>
+
+This course is a combination of interactive quizzes and exercises to facilitate speed and quality of learning. 
+Tap the Continue button to go to your first quiz!
+
 ################################################################
+
+What does a markup language use to identify content?
+
+>>>
+tags
+>>>
+
+################################################################
+
+The Web Structure
+
+The ability to code using HTML is essential for any web professional. 
+Acquiring this skill should be the starting point for anyone who is learning how to create content for the web. 
+
+Modern Web Design
+
+HTML: Structure
+CSS: Presentation
+JavaScript: Behavior
+PHP or similar: Backend
+CMS: Content Management
+
+HTML is easy to learn. So don't wait! Dive right in!
+
+################################################################
+
+Rearrange the code to surround the text "I am learning HTML on SoloLearn!" with opening and closing <p> tags:
+
+<p>
+I am learning HTML
+on SoloLearn!
+</p>
 
 ################################################################
 
