@@ -468,11 +468,35 @@ red
 
 ################################################################
 
-################################################################
+From the three types of styling, which one is the most useful in terms of website optimization?
+
+>>>
+External
+>>>
 
 ################################################################
 
+What is the "style", when creating an internal CSS?
+
+>>>
+tag
+>>>
+
 ################################################################
+
+The Style definition rule consists of selector, property and:
+  
+>>>
+value
+>>> 
+
+################################################################
+
+Fill in the blank to apply white text color to the paragraph.
+
+p {
+color: #FFF;
+  }
 
 ################################################################
 
