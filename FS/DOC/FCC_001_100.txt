@@ -150,14 +150,14 @@ Once you get all tests passing, you can advance to the next challenge.
 
 <head>
 
-<title>ALLDAY</title>
-<meta charset="UTF-8">
+	<title>ALLDAY</title>
+	<meta charset="UTF-8">
 	
 </head>
 
 <body>
 
-<h1>Hello World</h1>
+	<h1>Hello World</h1>
 
 </body>
 </html>
