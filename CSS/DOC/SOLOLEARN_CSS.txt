@@ -95,67 +95,378 @@ it allows for the separation of style and content
 
 ################################################################
 
-################################################################
+Inline CSS
+
+Using an inline style is one of the ways to insert a style sheet. With an inline style, a unique style is applied to a single element.
+
+In order to use an inline style, add the style attribute to the relevant tag. 
+
+The example below shows how to create a paragraph with a gray background and white text:
+
+<p style="color:white; background-color:gray;">
+    This is an example of inline styling. 
+</p>
 
 ################################################################
+
+Select the attribute that organizes the inline styling:
+
+>>>
+style
+>>>
+
+################################################################
+
+Embedded/Internal CSS
+
+Internal styles are defined within the <style> element, inside the head section of an HTML page. 
+
+For example, the following code styles all paragraphs:
+
+<html>
+   <head>
+      <style>
+      p {
+         color:white;
+         background-color:gray;
+      }
+      </style>
+   </head>
+   <body>
+      <p>This is my first paragraph. </p>
+      <p>This is my second paragraph. </p>
+   </body>
+</html>
+
+All paragraphs have a white font and a gray background.
+
+################################################################
+
+Where should the style tag be declared to organize an internal CSS?
+
+>>>
+head
+>>>
+
+################################################################
+
+External CSS
+
+With this method, all styling rules are contained in a single text file, which is saved with the .css extension. 
+
+This CSS file is then referenced in the HTML using the <link> tag. The <link> element goes inside the head section.
+
+Here is an example:
+
+The HTML:
+
+<head>
+   <link rel="stylesheet" href="example.css">
+</head>
+<body>
+   <p>This is my first paragraph.</p>
+   <p>This is my second paragraph. </p>
+   <p>This is my third paragraph. </p>
+</body>
+
+The CSS:
+
+p {
+   color:white;
+   background-color:gray;
+}
+
+Both relative and absolute paths can be used to define the href for the CSS file. In our example, 
+the path is relative, as the CSS file is in the same directory as the HTML file.
+
+################################################################
+
+Fill in the blanks to call an external stylesheet called "test.css":
+
+<head>
+  <link rel="stylesheet" href="test.css">
+</head>
 
 ################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.003.
+01.003. CSS Rules and Selectors
+=============================================================================================================
+
+type  <p></p>                               p {}
+id    <div id="intro">                    #id {}
+class <div><p class="first"></p></div>    .first {}
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+CSS Syntax
+
+CSS is composed of style rules that the browser interprets and then applies to the corresponding elements in your document. 
+A style rule has three parts: selector, property, and value. 
+
+For example, the headline color can be defined as:
+
+h1 { color: orange; }
+
+h1      == selector
+color   == property
+orange  == value
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations, separated by semicolons.
+Each declaration includes a property name and a value, separated by a colon.
+
+################################################################
+
+In the rule, the "selector":
+
+>>>
+selects which elements to style
+>>>
+
+################################################################
+
+Type Selectors
+
+The most common and easy to understand selectors are type selectors. This selector targets element types on the page.
+
+For example, to target all the paragraphs on the page:
+
+p {
+   color: red;
+   font-size:130%;
+}
+
+A CSS declaration always ends with a semicolon, and declaration groups are surrounded by curly braces.
+
+################################################################
+
+Rearrange the code to create a valid CSS style rule:
+
+p {
+  color: blue;
+  }
+
+################################################################
+
+id and class Selectors
+
+id selectors allow you to style an HTML element that has an id attribute, regardless of their position in the document tree. 
+Here is an example of an id selector:
+
+The HTML:
+
+<div id="intro">
+   <p> This paragraph is in the intro section.</p>
+</div>
+<p> This paragraph is not in the intro section.</p>
+
+The CSS:
+
+#intro {
+   color: white;
+   background-color: gray;
+}
+
+To select an element with a specific id, use a hash character, and then follow it with the id of the element.
+
+Class selectors work in a similar way. The major difference is that IDs can only be applied once per page, 
+while classes can be used as many times on a page as needed. 
+
+In the example below, both paragraphs having the class "first" will be affected by the CSS: 
+
+The HTML:
+
+<div>
+   <p class="first">This is a paragraph</p>
+   <p> This is the second paragraph. </p>
+</div>
+<p class="first"> This is not in the intro section</p>
+<p> The second paragraph is not in the intro section. </p>
+
+The CSS:
+
+.first {font-size: 200%;}
+
+To select elements with a specific class, use a period character, followed by the name of the class.
+Do NOT start a class or id name with a number!
+
+################################################################
+
+Fill in the blanks to give yellow background color to the element with id="intro", and black text color to the class="mytext":
+  
+#intro 
+ {
+   background-color: yellow;
+}
+  
+.mytext 
+ {
+   color: black;
+}
+
+################################################################
+
+Descendant Selectors
+
+These selectors are used to select elements that are descendants of another element. 
+When selecting levels, you can select as many levels deep as you need to. 
+
+For example, to target only <em> elements in the first paragraph of the "intro" section:
+
+The HTML:
+
+<div id="intro">
+   <p class="first">This is a <em> paragraph.</em></p>
+   <p> This is the second paragraph. </p>
+</div>
+<p class="first"> This is not in the intro section.</p>
+<p> The second paragraph is not in the intro section. </p>
+
+The CSS:
+
+#intro .first em {
+   color: pink; 
+   background-color:gray;
+}
+
+################################################################
+
+Drag and drop from the options below to create a style rule for all paragraphs belonging to the element with id="test":
+
+#test p  {
+   color: red;
+}
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.004. CSS Comments
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ################################################################
 
-################################################################
+Comments
+
+Comments are used to explain your code, and may help you when you edit the source code later. Comments are ignored by browsers.
+
+A CSS comment look like this:
+
+/* Comment goes here */
+
+Example:
+
+p { 
+  color: green; 
+  /* This is a comment */
+  font-size: 150%;
+}
+
+Comments can also span multiple lines.
 
 ################################################################
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.004.
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
-
-################################################################
-
-################################################################
-
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.005.
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
-
-################################################################
-
-################################################################
+Turn the text into a comment in CSS:
+  
+/*
+ This is a comment 
+*/
 
 ################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.006.
+01.005. Style Cascade and Inheritance
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+Cascade
+
+The final appearance of a web page is a result of different styling rules. 
+
+The three main sources of style information that form a cascade are:
+
+- The stylesheet created by the author of the page
+- The browser's default styles
+- Styles specified by the user
+
+################################################################
+
+Which three different sources are responsible for the styles you see on the web page?
+
+- The stylesheet created by the author of the page
+- The browser's default styles
+- Styles specified by the user
+
+################################################################
+
+Inheritance
+
+Inheritance refers to the way properties flow through the page. A child element will usually take on the characteristics 
+of the parent element unless otherwise defined. 
+
+For example:
+
+<html>
+   <head>
+      <style>
+      body {
+         color: green;
+         font-family: Arial;
+      }
+     </style>
+   </head>
+   <body>       
+      <p>
+      This is a text inside the paragraph. 
+      </p>
+   </body>
+</html>
+
+Since the paragraph tag (child element) is inside the body tag (parent element), it takes on any styles assigned to the body tag.
+
+################################################################
+
+What color does the paragraph have?
+
+<style>
+   body {color: green; }
+   .mydiv {color: red; }
+</style>
+<body>
+   <div class="mydiv">
+      <p>Some text</p>
+   </div>
+</body>
+
+>>>
+red
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.006. Module 1 Quiz
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
 
 ################################################################
 
