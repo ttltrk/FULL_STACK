@@ -628,29 +628,163 @@ Some quote <br />
 
 ################################################################
 
-################################################################
-
 =============================================================================================================
-02.005.
+02.005. Elements
 =============================================================================================================
 
 ################################################################
 
-################################################################
+HTML Elements
+
+HTML documents are made up of HTML elements.
+An HTML element is written using a start tag and an end tag, and with the content in between.
+
+HTML documents consist of nested HTML elements. In the example below, the body element includes the <p> tags, 
+the <br /> tag and the content, "This is a paragraph".
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body> 
+      <p>This is a paragraph <br /></p>
+   </body>
+</html>
+
+Some HTML elements (like the <br /> tag) do not have end tags.
 
 ################################################################
+
+General HTML elements consist of: 
+
+>>>
+opening tag, content, closing tag
+>>>
+
+################################################################
+
+HTML Elements
+
+Some elements are quite small. Since you can't put contents within a break tag, 
+and you don't have an opening and closing break tag, it’s a separate, single element. 
+
+So HTML is really scripting with elements within elements.
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body>
+      <p>This is a paragraph</p>
+      <p>This is a <br /> line break</p>
+   </body>
+</html>
+
+################################################################
+
+Fill in the blanks:
+
+<html>
+<head>
+<title>Title</title>
+</head>
+<body>
+<p>Some text</p>
+</body>
+</html>
 
 ################################################################
 
 =============================================================================================================
-02.006.
+02.006. Attributes
 =============================================================================================================
 
 ################################################################
 
-################################################################
+HTML Attributes
+
+Attributes provide additional information about an element or a tag, 
+while also modifying them. Most attributes have a value; the value modifies the attribute.
+
+<p align="center"> 
+   This text is aligned to center
+</p>
+
+In this example, the value of "center" indicates that the content within the p element should be aligned to the center.
+
+Attributes are always specified in the start tag, and they appear in name="value" pairs.
 
 ################################################################
+
+What is the role of an attribute in HTML?
+
+>>>
+it modifies the tag
+>>>
+
+################################################################
+
+Attribute Measurements
+
+As an example, we can modify the horizontal line so it has a width of 50 pixels.
+
+This can be done by using the width attribute:
+<hr width="50px" />
+
+An element's width can also be defined using percentages:
+<hr width="50%" />
+
+################################################################
+
+What measurement units can be used for the width attribute?
+
+>>>
+pixel and %
+>>>
+
+################################################################
+
+The Align Attribute
+
+The align attribute is used to specify how the text is aligned.
+
+In the example below, we have a paragraph that is aligned to the center, and a line that is aligned to the right.
+
+<html>
+   <head>
+      <title>Attributes</title>
+   </head>
+   <body>
+      <p align="center">This is a text <br />
+         <hr width="10%" align="right" /> This is also a text.
+      </p>
+   </body>
+</html>
+
+################################################################
+
+What attribute is used to align the contents of an element to the right, center or left?
+
+>>>
+align
+>>>
+
+################################################################
+
+Attributes
+
+You may be wondering what happens if you try to apply contradictory attributes within the same element.
+
+<p align="center">
+   This is a text.
+   <hr width="50%" align="left" />
+</p>
+
+################################################################
+
+Which attribute is used to align the content of a paragraph to the right?
+
+<p align="right">
 
 ################################################################
 
