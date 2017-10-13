@@ -789,14 +789,96 @@ Which attribute is used to align the content of a paragraph to the right?
 ################################################################
 
 =============================================================================================================
-02.007.
+02.007. Images
 =============================================================================================================
 
 ################################################################
 
-################################################################
+The <img> Tag
+
+The <img> tag is used to insert an image. It contains only attributes, and does not have a closing tag. 
+
+The image's URL (address) can be defined using the src attribute.
+
+The HTML image syntax looks like this:
+<img src="image.jpg" />
 
 ################################################################
+
+What tag should be used to add an image?
+<img />
+
+################################################################
+
+Image Location
+
+You need to put in the image location for the src attribute that is between the quotation marks. 
+
+For example, if you have a photo named "tree.jpg" in the same folder as the HTML file, your code should look like this:
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body> 
+      <img src="tree.jpg" alt="" />
+   </body>
+</html>
+
+In case the image cannot be displayed, the alt attribute specifies an alternate text that describes the image in words. 
+The alt attribute is required.
+
+################################################################
+
+What attribute should be used to add an image URL?
+
+>>>
+src
+>>>
+
+################################################################
+
+Image Resizing
+
+To define the image size, use the width and height attributes.
+The value can be specified in pixels or as a percentage:
+
+<html>
+   <head>
+      <title>first page</title>
+   </head>
+   <body> 
+      <img src="tree.jpg" height="150px" width="150px" alt="" />
+      <!-- or -->
+      <img src="tree.jpg" height="50%" width="50%" alt="" />
+   </body>
+</html>
+
+Loading images takes time. Using large images can slow down your page, so use them with care.
+
+################################################################
+
+What two attributes can be used to resize images inside HTML code?
+
+>>>
+width
+height
+>>>
+
+################################################################
+
+Image Border
+
+By default, an image has no borders. Use the border attribute within the image tag to create a border around the image.
+<img src="tree.jpg" height="150px" width="150px" border="1px" alt="" /> 
+
+By default, Internet Explorer 9, and its earlier versions, display a border around an image unless a border attribute is defined.
+
+################################################################
+
+Fill in the blank:
+
+<img src="tree.jpg" alt="" />
 
 ################################################################
 
