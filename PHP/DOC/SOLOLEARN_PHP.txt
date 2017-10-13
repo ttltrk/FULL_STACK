@@ -1,1 +1,377 @@
-xxx
+
+*************************************************************************************************************
+SOLOLEARN.COM
+PHP Tutorial
+*************************************************************************************************************
+
+=============================================================================================================
+
+01. Basic Syntax
+
+  01.001. Introduction
+  01.002. PHP Tags
+  01.003. Echo
+  01.004. Comments
+  01.005. Module 1 Quiz
+
+02. Variables
+
+03. Operators
+
+04. Arrays
+
+05. Control Structures
+
+06. Functions
+
+07. Predefined Variables
+
+08. Working with Files
+
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01. Basic Syntax
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.001. Introduction
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+Welcome to PHP
+
+PHP: Hypertext Preprocessor (PHP) is a free, highly popular, open source scripting language. PHP scripts are executed on the server.
+
+Just a short list of what PHP is capable of:
+- Generating dynamic page content
+- Creating, opening, reading, writing, deleting, and closing files on the server
+- Collecting form data
+- Adding, deleting, and modifying information stored in your database
+- controlling user-access
+- encrypting data
+- and much more!
+
+Before starting this tutorial, you should have a basic understanding of HTML.
+PHP has enough power to work at the core of WordPress, the busiest blogging system on the web. 
+It also has the degree of depth required to run Facebook, the web's largest social network!
+
+################################################################
+
+PHP is a...
+
+>>>
+Server side programming language
+>>>
+
+################################################################
+
+Why PHP
+
+PHP runs on numerous, varying platforms, including Windows, Linux, Unix, Mac OS X, and so on.
+PHP is compatible with almost any modern server, such as Apache, IIS, and more.
+PHP supports a wide range of databases.
+PHP is free!
+PHP is easy to learn and runs efficiently on the server side.
+
+################################################################
+
+Can you run PHP on Linux?
+
+>>>
+Yes
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.002. PHP Tags
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+PHP Syntax
+
+A PHP script starts with <?php and ends with ?>:
+<?php
+  // PHP code goes here
+?>
+
+Here is an example of a simple PHP file. The PHP script uses a built in function called "echo" to output the text 
+"Hello World!" to a web page.
+
+<html>
+  <head>
+    <title>My First PHP Page</title>
+  </head>
+  <body>
+  <?php   
+    echo "Hello World!";
+  ?>
+  </body>
+</html>
+
+PHP statements end with semicolons (;).
+
+################################################################
+
+Fill in the correct character.
+<?php
+  echo 'Hello';
+?>
+
+################################################################
+
+PHP Syntax
+
+Alternatively, we can include PHP in the HTML <script> tag.
+
+<html>
+  <head>
+    <title>My First PHP Page</title>
+  </head>
+  <body>
+  <script language="php">
+    echo "Hello World!";
+  </script>
+  </body>
+</html>
+
+However, the latest version of PHP removes support for <script language="php"> tags. As such, we recommend using <?php ?> exclusively.
+
+################################################################
+
+Which of the following is correct when using PHP with the script tag?
+
+>>>
+<script language="php">
+>>>
+
+################################################################
+
+PHP Syntax
+
+You can also use the shorthand PHP tags, <? ?>, as long as they're supported by the server.
+<?
+  echo "Hello World!";
+?>
+
+However, <?php ?>, as the official standard, is the recommended way of defining PHP scripts.
+
+################################################################
+
+Which is the most widely recommended way to use PHP tags?
+
+>>>
+<?php
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.003. Echo
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+Echo
+
+PHP has a built-in "echo" function, which is used to output text. 
+In actuality, it's not a function; it's a language construct. As such, it does not require parentheses.
+
+Let's output a text.
+
+<?php
+  echo "I love PHP!";
+?>
+
+The text should be in single or double quotation marks.
+
+################################################################
+
+Fill in the blanks to output "Hi" using echo:
+
+<?php
+ echo "Hi";
+?>
+
+################################################################
+
+PHP Statements
+
+Each PHP statement must end with a semicolon.
+
+<?php
+  echo "A";
+  echo "B";
+  echo "C";
+?>
+
+Forgetting to add a semicolon at the end of a statement results in an error.
+
+################################################################
+
+Which character has to be at the end of each statement?
+ 
+>>>
+;
+>>>
+
+################################################################
+
+Echo
+
+HTML markup can be added to the text in the echo statement.
+
+<?php
+   echo "<strong>This is a bold text.</strong>";
+?>
+
+################################################################
+
+Fill in the blanks to output "SoloLearn" as a h1 heading:
+
+<?php
+  echo "<h1>SoloLearn</h1>";
+?>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.004. Comments
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+Comments
+
+In PHP code, a comment is a line that is not executed as part of the program. 
+You can use comments to communicate to others so they understand what you're doing, or as a reminder to yourself of what you did.
+
+A single-line comment starts with //:
+
+<?php   
+  echo "<p>Hello World!</p>";
+  // This is a single-line comment
+  echo "<p>I am learning PHP!</p>";
+  echo "<p>This is my first program!</p>";
+?>
+
+################################################################
+
+Which of the following characters indicates comments in PHP?
+
+>>>
+//
+>>>
+
+################################################################
+
+Multi-Line Comments
+
+Multi-line comments are used for composing comments that take more than a single line. 
+A multi-line comment begins with /* and ends with */.
+
+<?php   
+  echo "<p>Hello World!</p>";
+   /*
+   This is a multi-line comment block
+   that spans over
+   multiple lines
+   */
+   echo "<p>I am learning PHP!</p>";
+   echo "<p>This is my first program!</p>";
+?>
+
+Adding comments as you write your code is a good practice. It helps others understand your thinking and makes it easier 
+for you to recall your thought processes when you refer to your code later on.
+
+################################################################
+
+Fill in the blanks to make the text a comment.
+  
+/*
+ Name: John
+    Age : 24
+    Date: 05/06/2014
+*/ 
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.005. Module 1 Quiz
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+################################################################
+
+Which of the following is the correct syntax?
+
+>>>
+echo"<p>Hello</p>";
+>>>
+
+################################################################
+
+Fill in the blank to make the text a comment:
+  
+//This is a comment
+echo 'This is a test';
+
+################################################################
+
+Drag and drop from the options below to form the correct PHP code:
+
+<?php
+  echo "Some text";
+?>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+03. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+05. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+06. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+07. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+08. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
