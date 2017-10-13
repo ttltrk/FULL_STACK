@@ -17,6 +17,23 @@ CSS Fundamentals
 
 02. Working with Text
 
+  02.001. font-family
+  02.002. font-size
+  02.003. font-style
+  02.004. font-weight
+  02.005. font-variant
+  02.006. color
+  02.007. Aligning Text Horizontally
+  02.008. Aligning Text Vertically
+  02.009. text-decoration
+  02.010. Indenting the Text
+  02.011. text-shadow
+  02.012. text-transform
+  02.013. letter-spacing
+  02.014. word-spacing
+  02.015. white-spacing
+  02.016. Module 2 Quiz
+
 03. Properties
 
 04. Positioning and Layout
