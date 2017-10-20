@@ -36,8 +36,8 @@ Getting Started With Bootstrap
   
 #### Bootstrap Overview
 
+```
 bootstrap/
-
   css/
     bootstrap.css
     bootstrap.min.css
@@ -51,6 +51,7 @@ bootstrap/
     glyphicon-halflings-regular.svg
     glyphicon-halflings-regular.ttf
     glyphicon-halflings-regular.woff
+```
 
 #### Creating a Starter Template
 
