@@ -36,6 +36,8 @@ Getting Started With Bootstrap
   
 #### Bootstrap Overview
 
+Fs
+
 ```
 bootstrap/
   css/
@@ -67,6 +69,16 @@ Components
   * Badges
   * Pagination
   * Input Groups
+  
+JS Vidgets
+  * Tabs
+  * Accordion
+  * Alert
+  * Popover & ToolTip
+  * Carousel
+  * Modal
+  * Collapse
+  * Dropdown
 
 #### Creating a Starter Template
 
