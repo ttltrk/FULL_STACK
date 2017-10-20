@@ -53,6 +53,21 @@ bootstrap/
     glyphicon-halflings-regular.woff
 ```
 
+Components
+  * Glyphicons
+  * Dropdowns
+  * Button Groups
+  * Navbar
+  * Breadcrumbs
+  * Alert
+  * Panels
+  * Jumbotron
+  * Labels
+  * Progress Bars
+  * Badges
+  * Pagination
+  * Input Groups
+
 #### Creating a Starter Template
 
 Photo App Sales Website
