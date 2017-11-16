@@ -24,3 +24,10 @@ Section 7
 
 Section 8
 
+Jekyll basics
+------
+
+###<h3 id='3'>Install Jekyll</h3>
+
+
+
