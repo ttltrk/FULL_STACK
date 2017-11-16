@@ -2,11 +2,11 @@
 [Jekyll: make fast, secure static sites and blogs with Jekyll](https://www.udemy.com/static-website-generator-fast-secure-sites-blogs-with-jekyll/learn/v4/content)
 ======
 
-Introduction
+### Introduction
   * <a href='#1'>Introduction</a>
   * <a href='#2'>Benefits of a static page and static website generators</a>
 
-Jekyll basics
+### Jekyll basics
   * <a href='#3'>Install Jekyll</a>
   * <a href='#4'>Create new project with Jekyll</a>
   * <a href='#5'>Jekyll templates</a>
@@ -28,6 +28,10 @@ Jekyll basics
 ------
 
 ### <h3 id='3'>Install Jekyll</h3>
+
+```
+sudo gem install jekyll bundler
+```
 
 
 
