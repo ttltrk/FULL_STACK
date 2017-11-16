@@ -45,4 +45,8 @@ jekyll serve
 
 ### <h3 id='5'>Jekyll templates</h3>
 
+```
+bundle show <template_name>
+```
+
 
