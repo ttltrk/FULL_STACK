@@ -33,5 +33,8 @@ Jekyll basics
 sudo gem install jekyll bundler
 ```
 
+### <h3 id='4'>Create new project with Jekyll</h3>
+
+### <h3 id='5'>Jekyll templates</h3>
 
 
