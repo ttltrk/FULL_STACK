@@ -22,6 +22,20 @@ Curriculum
 
 ### <h3 id="3">Installing BS4</h3>
 
+CSS Include
+
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+```
+
+JS Include
+
+```
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+```
+
 ### <h3 id="4">Setting up a Development Environment</h3>
 
 ### <h3 id="5">Customizing BS4</h3>
