@@ -12,6 +12,10 @@
   * <a href='#5'>5 - Introduction to Web Design</a>
   * <a href='#6'>6 - Beautiful Typography</a>
   * <a href='#7'>7 - Using Colors Like a Pro</a>
+  * <a href='#8'>8 - The Meaning of Colors in Web Design</a>
+  * <a href='#9'>9 - Working with Images</a>
+  * <a href='#10'>10 - Use CSS To Work With Images</a>
+  * <a href='#11'>11 - Working With Icons</a>
   *
   *
 
@@ -100,6 +104,10 @@ Use only ONE Base Color
 
 Never use Black in your design
 
+### <h3 id='8'>8 - The Meaning of Colors in Web Design</h3>
+
+[[The Meaning of Colors in Web Design.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2760208?start=0)]
+
 Red
 
 ```
@@ -154,5 +162,110 @@ Brown
 Is the color of relaxation and confidence. Brown means earthiness, nature, durability, comfort, and reliability.
 ```
 
+### <h3 id='9'>9 - Working with Images</h3>
 
+[[Working with Images.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744020?start=0)]
+
+Put text directly on the image only when the design is white
+
+Floor fade
+
+### <h3 id=''>10 - Use CSS To Work With Images</h3>
+
+[[Use CSS To Work With Images.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2800918?start=0)]
+
+Overlay the image
+
+```css
+.darken {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(YOUR IMAGE HERE);
+
+}
+```
+
+[[Example](http://jsfiddle.net/drpak8vy/1/)]
+
+
+Put text in a box
+
+```css
+.text-box {
+
+background-color: rgba(0, 0, 0, 0.5);
+
+color: #fff;
+
+display: inline;
+
+padding: 10px;
+
+}
+```
+
+[[Example](http://jsfiddle.net/qg83m36p/)]
+
+Floor fade
+
+```css
+.floor-fade {
+
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url(YOUR IMAGE HERE);
+
+}
+```
+
+[[Example](http://jsfiddle.net/gRzPF/409/)]
+
+### <h3 id='11'>11 - Working With Icons</h3>
+
+[[Working With Icons.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744022?start=0)]
+
+Use Icons to list Features/Steps
+
+Use Icons For Actions and Links
+  * Icons should be recognizable
+  * Label your icons
+  
+Use Icon Fonts Whenever possible
+  
+### <h3 id='12'>12 - Spacing and Layout</h3>
+
+[[Spacing and Layout.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744024?start=0)]
+
+Use whitespace correctly
+  * Put ws between your elements
+  * Put ws between your groups of elements
+  * Put ws between you website's sections
+  * Don't exaggerate
+  
+Define Hierarchy
+  * Define where you want audience to look first
+  * Establish a flow corresponds to your content's message
+  * Use whitespace to build that flow
+
+### <h3 id='13'>13 - Introduction To User Experience</h3>
+
+[[Introduction To User Experience.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744026?start=0)]
+
+User Interface is the Presentation of a Product, How it Looks and Feels
+
+User Experience is the Overall Experience the User has with a Product
+
+### <h3 id='14'>14 - Getting Inspired.udemy</h3>
+
+[[Getting Inspired.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744030?start=0)]
+
+Use other websites as inspiration to see what other leading designers are doing right
+  * Collect designs that you like
+  * Try to understand everything about them
+  * Why do they good look?
+  * What do these sites have in common?
+  * How were they built in HTML and CSS?
+  
+Steal Like an Artist
+
+
+  
+  
 
