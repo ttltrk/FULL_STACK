@@ -16,10 +16,11 @@
   * <a href='#9'>9 - Working with Images</a>
   * <a href='#10'>10 - Use CSS To Work With Images</a>
   * <a href='#11'>11 - Working With Icons</a>
-  *
-  *
+  * <a href='#12'>12 - Spacing and Layout
+  * <a href='#13'>13 - Intorduction to User Experience
+  * <a href='#14'>14 - Getting Inspired
 
-### Section 3
+### Section 3 - Bonus Lecture
   *
   *
   *
