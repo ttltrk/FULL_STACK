@@ -252,7 +252,7 @@ User Interface is the Presentation of a Product, How it Looks and Feels
 
 User Experience is the Overall Experience the User has with a Product
 
-### <h3 id='14'>14 - Getting Inspired.udemy</h3>
+### <h3 id='14'>14 - Getting Inspired</h3>
 
 [[Getting Inspired.udemy](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2744030?start=0)]
 
