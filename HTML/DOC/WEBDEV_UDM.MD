@@ -21,7 +21,7 @@
   * <a href='#14'>14 - Getting Inspired
 
 ### Section 3 - Bonus Lecture
-  *
+  * <a href='#15'>15 - Improve your website's conversion</a>
   *
   *
   *
@@ -265,6 +265,13 @@ Use other websites as inspiration to see what other leading designers are doing 
   * How were they built in HTML and CSS?
   
 Steal Like an Artist
+
+Section 3 - Bonus Lecture
+------
+
+### <h3 id='15'>15 - Improve your website's conversion</h3>
+
+[[pdf](https://www.udemy.com/web-design-secrets/learn/v4/t/lecture/2796114?start=0)]
 
 
   
