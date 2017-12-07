@@ -77,12 +77,30 @@ Language of the browser
 It is not a programming language
 
 ```html<p></p>``` paragraph
+
 ```html<h1></h1>``` heading
+
 ```html<i></i>``` italic
+
 ```html<b></b>``` bold
 
 ```html<h1>This is a heading</h1>```
+
 ```html<p>This is a paragraph</p>```
+
+HTML Document Layout
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>    
+```
 
 ### <h3 id='4'>4 - Creating a HTML Webpage</h3>
 
