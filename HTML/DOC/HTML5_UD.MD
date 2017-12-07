@@ -70,6 +70,20 @@ Section 1 - Introduction to basic HTML
 
 [[HTML Basics.udemy](https://www.udemy.com/learn-html5-programming-from-scratch/learn/v4/t/lecture/235751?start=0)]
 
+Hypertext Markup Language
+
+Language of the browser
+
+It is not a programming language
+
+```html<p></p>``` paragraph
+```html<h1></h1>``` heading
+```html<i></i>``` italic
+```html<b></b>``` bold
+
+```html<h1>This is a heading</h1>```
+```html<p>This is a paragraph</p>```
+
 ### <h3 id='4'>4 - Creating a HTML Webpage</h3>
 
 [[]()]
