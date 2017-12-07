@@ -76,17 +76,17 @@ Language of the browser
 
 It is not a programming language
 
-```html<p></p>``` paragraph
+```<p></p>``` paragraph
 
-```html<h1></h1>``` heading
+```<h1></h1>``` heading
 
-```html<i></i>``` italic
+```<i></i>``` italic
 
-```html<b></b>``` bold
+```<b></b>``` bold
 
-```html<h1>This is a heading</h1>```
+```<h1>This is a heading</h1>```
 
-```html<p>This is a paragraph</p>```
+```<p>This is a paragraph</p>```
 
 HTML Document Layout
 
