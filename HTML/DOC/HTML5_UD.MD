@@ -102,6 +102,26 @@ HTML Document Layout
 </html>    
 ```
 
+Element Attribute
+
+```html
+<a href="google.com">Google</a>
+```
+
+with title
+
+```html
+<a href="google.com" title="click to go">Google</a>
+```
+
+Style Attribute
+
+```html
+<p style="color:red">This paragraph will be red</p>
+```
+
+
+
 ### <h3 id='4'>4 - Creating a HTML Webpage</h3>
 
 [[]()]
