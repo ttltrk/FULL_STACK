@@ -120,6 +120,27 @@ Style Attribute
 <p style="color:red">This paragraph will be red</p>
 ```
 
+Singleton tags are tags with no closing tags
+
+```html
+<img>
+<br />
+<hr />
+<command />
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
 
 
 ### <h3 id='4'>4 - Creating a HTML Webpage</h3>
