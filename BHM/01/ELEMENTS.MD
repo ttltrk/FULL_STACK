@@ -9,7 +9,9 @@ HTML Elements
 ```html
 <tagname>content</tagname>
 
-<p>My first paragraph</p>
+<p>paragraph</p>
+<h1>heading</h1>
+<br>
 ```
 
 ---
