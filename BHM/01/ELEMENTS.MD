@@ -6,12 +6,16 @@ HTML Elements
 
 ---
 
+An HTML element usually consists of a start tag and end tag, with the content inserted in between
+
+---
+
 ```html
 <tagname>content</tagname>
-
 <p>paragraph</p>
 <h1>heading</h1>
 <br>
+<hr>
 ```
 
 ---
