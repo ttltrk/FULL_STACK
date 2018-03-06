@@ -42,3 +42,5 @@ alt
 ```html
 <img src="img_girl.jpg" alt="Girl with a jacket">
 ```
+
+---
