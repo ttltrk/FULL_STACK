@@ -7,6 +7,8 @@
 
 ---
 
+HTML Basics
+
 * <a href="#">Home</a>
 * <a href="#">Overview</a>
 * <a href="#">Basic Tags</a>
@@ -26,12 +28,47 @@
 * <a href="#">Iframes</a>
 * <a href="#">Blocks</a>
 * <a href="#">Backgrounds</a>
-* <a href="#"></a>
-* <a href="#"></a>
+* <a href="#">Colors</a>
+* <a href="#">Fonts</a>
+* <a href="#">Forms</a>
+* <a href="#">Embed Multimedia</a>
+* <a href="#">Marquees</a>
+* <a href="#">Header</a>
+* <a href="#">Style Sheet</a>
+* <a href="#">Javascript</a>
+* <a href="#">Layouts</a>
 
 ---
 
-* [src](https://www.tutorialspoint.com/html/index.htm)
-* [src]()
+References
+
+---
+
+Resources
+
+---
+
+HTML5 Basics
+
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+* <a href=""></a>
+
+---
+
+* [src - HTML](https://www.tutorialspoint.com/html/index.htm)
+* [src - HTML5](https://www.tutorialspoint.com/html5/index.htm)
 
 ---
