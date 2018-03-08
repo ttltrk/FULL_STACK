@@ -43,7 +43,7 @@ BIGGER HEADINGS
 
 HR as HORIZONTAL RULES
 
-The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The ```<hr>``` tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
 
 ```html
 <h1>This is heading 1</h1>
@@ -58,7 +58,7 @@ The <hr> tag defines a thematic break in an HTML page, and is most often display
 
 The HTML ```<head>``` ELEMENT
 
-The <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
+The ```<head>``` element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
 
 ```html
 <!DOCTYPE html>
