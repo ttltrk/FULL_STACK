@@ -1,5 +1,5 @@
 
-### HTML
+### HTML & HTML 5
 
 ---
 
@@ -50,21 +50,48 @@ Resources
 
 HTML5 Basics
 
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
+* <a href="">Home</a>
+* <a href="">Overview</a>
+* <a href="">Syntax</a>
+* <a href="">Attributes</a>
+* <a href="">Events</a>
+* <a href="">Webs Form 2.0</a>
+* <a href="">SVG</a>
+* <a href="">MathML</a>
+* <a href="">Web Storage</a>
+* <a href="">Web SQL</a>
+* <a href="">Server-Sent Events</a>
+* <a href="">WebSocket</a>
+* <a href="">Canvas</a>
+* <a href="">Audio & Video</a>
+* <a href="">Geolocation</a>
+* <a href="">Microdata</a>
+* <a href="">Drag & Drop</a>
+* <a href="">Web Workers</a>
+* <a href="">IndexedDB</a>
+* <a href="">Web Messaging</a>
+* <a href="">Web CORS</a>
+* <a href="">Web RTC</a>
+
+---
+
+Demo
+
+---
+
+Tools
+
+---
+
+Useful References
+
+---
+
+Tag Reference
+
+---
+
+Resources
 
 ---
 
