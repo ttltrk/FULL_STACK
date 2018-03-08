@@ -8,11 +8,11 @@ HTML Headings
 
 |Tag|	Description|
 |---|------------|
-|<html>|	Defines the root of an HTML document|
-|<body>|	Defines the document's body|
-|<head>|	A container for all the head elements (title, scripts, styles, meta information, and more)|
-|<h1> to <h6>	|Defines HTML headings|
-|<hr>	|Defines a thematic change in the content|
+|```<html>```|	Defines the root of an HTML document|
+|```<body>```|	Defines the document's body|
+|```<head>```|	A container for all the head elements (title, scripts, styles, meta information, and more)|
+|```<h1>``` to ```<h6>```	|Defines HTML headings|
+|```<hr>```	|Defines a thematic change in the content|
 
 ---
 
