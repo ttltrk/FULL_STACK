@@ -7,31 +7,10 @@
 
 ---
 
-* <a href="#1">FIRST</a>
-* <a href="#2">SECOND</a>
-* <a href="#3">THIRD</a>
-* <a href="#4">FOURTH</a>
-* <a href="#5">FIFTH</a>
-
----
-
-<h4 id="1">FIRST</h4>
-
----
-
-<h4 id="2">SECOND</h4>
-
----
-
-<h4 id="3">THIRD</h4>
-
----
-
-<h4 id="4">FOURTH</h4>
-
----
-
-<h4 id="5">FIFTH</h4>
+HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by 
+Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major 
+version of HTML and it was published in late 1999. Though HTML 4.01 version is widely used but currently we are having HTML-5 version 
+which is an extension to HTML 4.01, and this version was published in 2012.
 
 ---
 
