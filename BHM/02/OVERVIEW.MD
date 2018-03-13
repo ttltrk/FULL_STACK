@@ -9,7 +9,7 @@
 
 * <a href="#1">OVERVIEW</a>
 * <a href="#2">BASIC HTML DOCUMENT</a>
-* <a href="#3">THIRD</a>
+* <a href="#3">HTML TAGS</a>
 * <a href="#4">FOURTH</a>
 * <a href="#5">FIFTH</a>
 
@@ -43,7 +43,11 @@ HTML stands for Hypertext Markup Language, and it is the most widely used langua
 
 ---
 
-<h4 id="3">THIRD</h4>
+<h4 id="3">HTML TAGS</h4>
+
+```
+
+```
 
 ---
 
