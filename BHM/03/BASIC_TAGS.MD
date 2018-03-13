@@ -12,6 +12,8 @@
 * <a href="#3">LINE BREAK TAG</a>
 * <a href="#4">CENTERING CONTENT</a>
 * <a href="#5">HORIZONTAL LINES</a>
+* <a href="#6">PRESERVE FORMATTING</a>
+* <a href="#7">
 
 ---
 
@@ -133,6 +135,31 @@
 ```
 
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_05.HTML)
+
+---
+
+<h4 id="6">PRESERVE FORMATTING</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Preserve Formatting Example</title>
+   </head>
+	
+   <body>
+      <pre>
+         function testFunction( strText ){
+            alert (strText)
+         }
+      </pre>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_06.HTML)
 
 ---
 
