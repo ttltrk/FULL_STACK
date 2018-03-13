@@ -39,7 +39,7 @@ HTML stands for Hypertext Markup Language, and it is the most widely used langua
 </html>
 ```
 
-[OUTPUT]()
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/edit/master/BHM/02/01.html)
 
 ---
 
