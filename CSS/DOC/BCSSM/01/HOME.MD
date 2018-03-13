@@ -3,7 +3,7 @@
 
 ---
 
-[<<<](#)
+[<<<](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/BCSSM.MD)
 
 ---
 
@@ -35,6 +35,6 @@
 
 ---
 
-[src](#)
+[src](https://www.tutorialspoint.com/css/index.htm)
 
 ---
