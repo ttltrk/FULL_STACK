@@ -13,7 +13,7 @@
 * <a href="#4">CENTERING CONTENT</a>
 * <a href="#5">HORIZONTAL LINES</a>
 * <a href="#6">PRESERVE FORMATTING</a>
-* <a href="#7">
+* <a href="#7">NONBREAKING SPACES</a>
 
 ---
 
@@ -160,6 +160,27 @@
 ```
 
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_06.HTML)
+
+---
+
+<h4 id="7">PRESERVE FORMATTING</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Nonbreaking Spaces Example</title>
+   </head>
+	
+   <body>
+      <p>An example of this technique appears in the movie "12&nbsp;Angry&nbsp;Men."</p>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_07.HTML)
 
 ---
 
