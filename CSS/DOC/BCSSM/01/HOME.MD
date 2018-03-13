@@ -7,8 +7,8 @@
 
 ---
 
-CSS is used to control the style of a web document in a simple and easy way.
-CSS is the acronym for "Cascading Style Sheet".
+* CSS is used to control the style of a web document in a simple and easy way.
+* CSS is the acronym for "Cascading Style Sheet".
 
 ---
 
