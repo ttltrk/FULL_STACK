@@ -7,7 +7,7 @@
 
 ---
 
-* <a href="#1">FIRST</a>
+* <a href="#1">HEADING TAGS</a>
 * <a href="#2">SECOND</a>
 * <a href="#3">THIRD</a>
 * <a href="#4">FOURTH</a>
@@ -15,7 +15,29 @@
 
 ---
 
-<h4 id="1">FIRST</h4>
+<h4 id="1">HEADING TAGS</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+	
+   <body>
+      <h1>This is heading 1</h1>
+      <h2>This is heading 2</h2>
+      <h3>This is heading 3</h3>
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](https://github.com/ttltrk/WEB/blob/master/BHM/03/03_01.HTML)
 
 ---
 
