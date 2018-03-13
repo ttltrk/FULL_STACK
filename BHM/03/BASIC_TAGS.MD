@@ -37,7 +37,7 @@
 </html>
 ```
 
-[OUTPUT](https://github.com/ttltrk/WEB/blob/master/BHM/03/03_01.HTML)
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_01.HTML)
 
 ---
 
