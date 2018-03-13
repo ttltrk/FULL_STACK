@@ -3,7 +3,7 @@
 
 ---
 
-[<<<](#)
+[<<<](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
 
 ---
 
