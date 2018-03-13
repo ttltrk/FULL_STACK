@@ -10,7 +10,7 @@
 * <a href="#1">HEADING TAGS</a>
 * <a href="#2">PARAGRAPH TAG</a>
 * <a href="#3">LINE BREAK TAG</a>
-* <a href="#4">FOURTH</a>
+* <a href="#4">CENTERING CONTENT</a>
 * <a href="#5">FIFTH</a>
 
 ---
@@ -88,7 +88,28 @@
 
 ---
 
-<h4 id="4">FOURTH</h4>
+<h4 id="4">CENTERING CONTENT</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Centring Content Example</title>
+   </head>
+	
+   <body>
+      <p>This text is not in the center.</p>
+      
+      <center>
+         <p>This text is in the center.</p>
+      </center>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_04.HTML)
 
 ---
 
