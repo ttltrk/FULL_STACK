@@ -11,7 +11,7 @@
 * <a href="#2">PARAGRAPH TAG</a>
 * <a href="#3">LINE BREAK TAG</a>
 * <a href="#4">CENTERING CONTENT</a>
-* <a href="#5">FIFTH</a>
+* <a href="#5">HORIZONTAL LINES</a>
 
 ---
 
@@ -113,7 +113,26 @@
 
 ---
 
-<h4 id="5">FIFTH</h4>
+<h4 id="5">HORIZONTAL LINES</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Horizontal Line Example</title>
+   </head>
+	
+   <body>
+      <p>This is paragraph one and should be on top</p>
+      <hr />
+      <p>This is paragraph two and should be at bottom</p>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/03/03_04.HTML)
 
 ---
 
