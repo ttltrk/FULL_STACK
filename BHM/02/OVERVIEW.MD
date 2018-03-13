@@ -46,6 +46,7 @@ HTML stands for Hypertext Markup Language, and it is the most widely used langua
 <h4 id="3">HTML TAGS</h4>
 
 |Tag|Description|
+|---|----|
 |```<!DOCTYPE...>```|This tag defines the document type and HTML version.|
 |```<html>```|This tag encloses the complete HTML document and mainly comprises of document header which is represented by ```<head>...</head>``` and document body which is represented by ```<body>...</body>``` tags.|
 |```<head>```|This tag represents the document's header which can keep other HTML tags like ```<title>```, ```<link>``` etc.|
