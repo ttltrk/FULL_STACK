@@ -5,14 +5,14 @@
 
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/COUR_MAN.MD)
 
 ---
 
-<a href=""></a>
+<a href="">Intro to CSS</a>
 
 ---
 
-[src]()
+[src](https://www.codecademy.com/learn/learn-css)
 
 ---
