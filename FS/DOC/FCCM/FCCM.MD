@@ -5,7 +5,7 @@
 
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/COUR_MAN.MD)
 
 ---
 
@@ -13,6 +13,8 @@
 
 ---
 
-[src]()
+[src](https://www.freecodecamp.org/ttltrk)
 
 ---
+
+
