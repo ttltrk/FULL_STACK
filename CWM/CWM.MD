@@ -13,7 +13,3 @@
 * <a href="https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/LCSSM.MD">Codecademy - Learn CSS</a>
 
 ---
-
-[]()
-
----
