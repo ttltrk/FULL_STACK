@@ -5,7 +5,7 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/COUR_MAN.MD)
+[<<<](https://github.com/ttltrk/WEB/blob/master/CWM/CWM.MD)
 
 ---
 
