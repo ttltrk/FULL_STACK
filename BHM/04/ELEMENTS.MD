@@ -21,6 +21,28 @@ preceded by a forward slash as shown below with few tags
 
 ---
 
+NESTED HTML ELEMENTS
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Nested Elements Example</title>
+   </head>
+	
+   <body>
+      <h1>This is <i>italic</i> heading</h1>
+      <p>This is <u>underlined</u> paragraph</p>
+   </body>
+	
+</html>
+```
+
+
+
+---
+
 [src](https://www.tutorialspoint.com/html/html_elements.htm)
 
 ---
