@@ -115,11 +115,41 @@ The ```dir``` attribute allows you to indicate to the browser about the directio
 |ltr|Left to right|
 |rtl|Right to left|
 
+```html
+<!DOCTYPE html>
+<html dir = "rtl">
+
+   <head>
+      <title>Display Directions</title>
+   </head>
+	
+   <body>
+      This is how IE 5 renders right-to-left directed text.
+   </body>
+	
+</html>
+```
+
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/05/05_04.HTML)
 
 The ```lang``` attribute allows you to indicate the main language used in a document, but this attribute was kept in HTML only for 
 backwards compatibility with earlier versions of HTML. This attribute has been replaced by the ```xml:lang``` attribute in new XHTML 
 documents.
+
+```html
+<!DOCTYPE html>
+<html lang = "en">
+
+   <head>
+      <title>English Language Page</title>
+   </head>
+
+   <body>
+      This page is using English Language
+   </body>
+
+</html>
+```
 
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/05/05_05.HTML)
 
