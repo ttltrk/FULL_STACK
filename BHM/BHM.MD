@@ -16,7 +16,7 @@ HTML Basics
 * <a href="https://github.com/ttltrk/WEB/blob/master/BHM/03/BASIC_TAGS.MD">Basic Tags</a>
 * <a href="https://github.com/ttltrk/WEB/blob/master/BHM/04/ELEMENTS.MD">Elements</a>
 * <a href="https://github.com/ttltrk/WEB/blob/master/BHM/05/ATTRIBUTES.MD">Attributes</a>
-* <a href="https://github.com/ttltrk/WEB/blob/master/BHM/06/FORMATTING.MD#05">Formatting</a>
+* <a href="https://github.com/ttltrk/WEB/blob/master/BHM/06/FORMATTING.MD">Formatting</a>
 * <a href="#">Phrase Tags</a>
 * <a href="#">Meta Tags</a>
 * <a href="#">Comments</a>
