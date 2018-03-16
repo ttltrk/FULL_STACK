@@ -26,8 +26,22 @@
 
 * <h4 id="01">Bold Text</h4>
 
-[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_01.HTML)
+```html
+<!DOCTYPE html>
+<html>
 
+   <head>
+      <title>Bold Text Example</title>
+   </head>
+	
+   <body>
+      <p>The following word uses a <b>bold</b> typeface.</p>
+   </body>
+	
+</html>
+```
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_01.HTML)
 
 ---
 
