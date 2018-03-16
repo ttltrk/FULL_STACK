@@ -47,11 +47,41 @@
 
 * <h4 id="02">Italic Text</h4>
 
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Italic Text Example</title>
+   </head>
+	
+   <body>
+      <p>The following word uses an <i>italicized</i> typeface.</p>
+   </body>
+	
+</html>
+```
+
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_02.HTML)
 
 ---
 
 * <h4 id="03">Underlined Text</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Underlined Text Example</title>
+   </head>
+	
+   <body>
+      <p>The following word uses an <u>underlined</u> typeface.</p>
+   </body>
+	
+</html>
+```
 
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_03.HTML)
 
@@ -59,11 +89,41 @@
 
 * <h4 id="04">Strike Text</h4>
 
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Strike Text Example</title>
+   </head>
+	
+   <body>
+      <p>The following word uses a <strike>strikethrough</strike> typeface.</p>
+   </body>
+	
+</html>
+```
+
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_04.HTML)
 
 ---
 
 * <h4 id="05">Monospaced Font</h4>
+
+```html
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Monospaced Font Example</title>
+   </head>
+	
+   <body>
+      <p>The following word uses a <tt>monospaced</tt> typeface.</p>
+   </body>
+	
+</html>
+```
 
 [OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_05.HTML)
 
