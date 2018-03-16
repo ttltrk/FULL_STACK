@@ -25,16 +25,49 @@
 ---
 
 * <h4 id="">Bold Text</h4>
+
+---
+
 * <h4 id="">Italic Text</h4>
+
+---
+
 * <h4 id="">Underlined Text</h4>
+
+---
+
 * <h4 id="">Strike Text</h4>
+
+---
+
 * <h4 id="">Monospaced Font</h4>
+
+---
+
 * <h4 id="">Superscript Text</h4>
+
+---
+
 * <h4 id="">Subscript text</h4>
+
+---
+
 * <h4 id="">Inserted Text</h4>
+
+---
+
 * <h4 id="">Deleted text</h4>
+
+---
+
 * <h4 id="">Larger Text</h4>
+
+---
+
 * <h4 id="">Smaller Text</h4>
+
+---
+
 * <h4 id="">Grouping Content</h4>
 
 ---
