@@ -26,49 +26,74 @@
 
 * <h4 id="01">Bold Text</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_01.HTML)
+
+
 ---
 
 * <h4 id="02">Italic Text</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_02.HTML)
 
 ---
 
 * <h4 id="03">Underlined Text</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_03.HTML)
+
 ---
 
 * <h4 id="04">Strike Text</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_04.HTML)
 
 ---
 
 * <h4 id="05">Monospaced Font</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_05.HTML)
+
 ---
 
 * <h4 id="06">Superscript Text</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_06.HTML)
 
 ---
 
 * <h4 id="07">Subscript text</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_07.HTML)
+
 ---
 
 * <h4 id="08">Inserted Text</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_08.HTML)
 
 ---
 
 * <h4 id="09">Deleted text</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_09.HTML)
+
 ---
 
 * <h4 id="10">Larger Text</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_10.HTML)
 
 ---
 
 * <h4 id="11">Smaller Text</h4>
 
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_11.HTML)
+
 ---
 
 * <h4 id="12">Grouping Content</h4>
+
+[OUTPUT](http://htmlpreview.github.io/?https://github.com/ttltrk/WEB/blob/master/BHM/06/06_12.HTML)
 
 ---
 
