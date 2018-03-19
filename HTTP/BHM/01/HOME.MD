@@ -5,7 +5,7 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/WEB/blob/master/HTTP/BHM/01/HOME.MD)
+[<<<](https://github.com/ttltrk/WEB/blob/master/HTTP/BHM/BHM.MD)
 
 ---
 
