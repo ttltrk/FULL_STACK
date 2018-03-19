@@ -11,7 +11,7 @@
 
 Basics
 
-* <a href="">Home</a>
+* <a href="https://github.com/ttltrk/WEB/blob/master/JS/DOC/BJSM/01/HOME.MD">Home</a>
 * <a href="">Overview</a>
 * <a href="">Syntax</a>
 * <a href="">Enabling</a>
