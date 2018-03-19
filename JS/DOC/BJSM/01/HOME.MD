@@ -5,7 +5,7 @@
 
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/WEB/blob/master/JS/DOC/BJSM/BJSM.MD)
 
 ---
 
