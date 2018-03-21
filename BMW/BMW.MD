@@ -9,7 +9,7 @@
 * [Markdown](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
 * [HTML](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
 * [CSS](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/BCSSM.MD)
-* [Django]()
+* [Django](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/BDJM.MD)
 * [SASS]()
 * [Bootstrap](https://github.com/ttltrk/WEB/blob/master/BS/DOC/BBM/BBM.MD)
 * [Angular]()
