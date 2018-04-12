@@ -47,11 +47,11 @@ HTML Basics
 
 ---
 
-References
+HTML References
 
 ---
 
-Resources
+HTML Resources
 
 ---
 
@@ -82,25 +82,27 @@ HTML5 Basics
 
 ---
 
-Demo
+HTML5 Demo
 
 ---
 
-Tools
+HTML5 Tools
 
 ---
 
-Useful References
+HTML5 Useful References
 
 ---
 
-Tag Reference
+HTML5 Tag Reference
 
 ---
 
-Resources
+HTML5 Resources
 
 ---
+
+Links
 
 * [src - HTML](https://www.tutorialspoint.com/html/index.htm)
 * [src - HTML5](https://www.tutorialspoint.com/html5/index.htm)
