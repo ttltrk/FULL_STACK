@@ -42,12 +42,6 @@ HTML Basics
 
 ---
 
-Links
-
-* [web biz](https://learntocodewith.me/posts/start-website-business/)
-
----
-
 References
 
 ---
@@ -105,5 +99,6 @@ Resources
 
 * [src - HTML](https://www.tutorialspoint.com/html/index.htm)
 * [src - HTML5](https://www.tutorialspoint.com/html5/index.htm)
+* [web biz](https://learntocodewith.me/posts/start-website-business/)
 
 ---
