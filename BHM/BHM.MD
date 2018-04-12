@@ -5,10 +5,6 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/WEB/blob/master/BMW/BMW.MD)
-
----
-
 HTML Basics
 
 * <a href="https://github.com/ttltrk/WEB/blob/master/BHM/01/HOME.MD">Home</a>
@@ -39,6 +35,12 @@ HTML Basics
 * <a href="#">Style Sheet</a>
 * <a href="#">Javascript</a>
 * <a href="#">Layouts</a>
+
+---
+
+Links
+
+* [web biz](https://learntocodewith.me/posts/start-website-business/)
 
 ---
 
