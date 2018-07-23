@@ -11,7 +11,7 @@
 
 * [HTTP](https://github.com/ttltrk/WEB/blob/master/HTTP/BHM/BHM.MD)
 * [Markdown](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
-* [HTML](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
+* [HTML](https://github.com/ttltrk/WEB/blob/master/HTML/DOC/HTML/HTML.MD)
 * [CSS](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/BCSSM.MD)
 * [Django](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/BDJM.MD)
 * [Flask](https://github.com/ttltrk/PRG/blob/master/FLASK/BMFL/BMFL.MD)
